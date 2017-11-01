@@ -1,0 +1,2653 @@
+{
+    "orgCity": "深圳",
+    "dstCity": "成都",
+    "basePrice": {
+        "0": "1480.0"
+    },
+    "date": {
+        "0": "2016-12-02"
+    },
+    "distance": {
+        "0": "1446.0"
+    },
+    "flights": [
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CZ3457"
+            },
+            "aircode": "CZ",
+            "gs": "中国南方航空公司",
+            "orgJetquay": "",
+            "depTime": "07:50",
+            "arriTime": "10:25",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "333"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 735,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1458,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.7"
+                    },
+                    "parPrice": 2520,
+                    "seatCode": {
+                        "0": "C"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 2503,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "4.0"
+                    },
+                    "parPrice": 5920,
+                    "seatCode": {
+                        "0": "F"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 5843,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4330"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "07:55",
+            "arriTime": "10:30",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "319"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "5"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9401"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "08:00",
+            "arriTime": "10:45",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 726,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "0.91"
+                    },
+                    "dz": 1,
+                    "parPrice": 1340,
+                    "seatCode": {
+                        "0": "P"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1310,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9403"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "09:40",
+            "arriTime": "12:25",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.71"
+                    },
+                    "dz": 1,
+                    "parPrice": 1024,
+                    "seatCode": {
+                        "0": "Q"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1024,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 1050,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.71"
+                    },
+                    "dz": 1,
+                    "parPrice": 1050,
+                    "seatCode": {
+                        "0": "Q"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1024,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T1"
+            },
+            "flightNo": {
+                "0": "3U8702"
+            },
+            "aircode": "3U",
+            "gs": "四川航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "10:30",
+            "arriTime": "13:10",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.5"
+                    },
+                    "dz": 1,
+                    "parPrice": 718,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 718,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 740,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.5"
+                    },
+                    "dz": 1,
+                    "parPrice": 740,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 718,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.3"
+                    },
+                    "parPrice": 1920,
+                    "seatCode": {
+                        "0": "J"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "3"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1887,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "EU2218"
+            },
+            "aircode": "EU",
+            "gs": "成都航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "11:10",
+            "arriTime": "14:00",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.45"
+                    },
+                    "dz": 1,
+                    "parPrice": 649,
+                    "seatCode": {
+                        "0": "V"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 649,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 670,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.45"
+                    },
+                    "dz": 1,
+                    "parPrice": 670,
+                    "seatCode": {
+                        "0": "V"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 649,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1453,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4338"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "11:55",
+            "arriTime": "14:35",
+            "depTimeId": 1,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "33A"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "5"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "5"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CZ3453"
+            },
+            "aircode": "CZ",
+            "gs": "中国南方航空公司",
+            "orgJetquay": "",
+            "depTime": "12:40",
+            "arriTime": "15:25",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 735,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1458,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.74"
+                    },
+                    "parPrice": 2570,
+                    "seatCode": {
+                        "0": "C"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 2553,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4326"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "13:00",
+            "arriTime": "15:45",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "3"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "HU7751"
+            },
+            "aircode": "HU",
+            "gs": "海南航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "14:10",
+            "arriTime": "16:45",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "333"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.42"
+                    },
+                    "dz": 1,
+                    "parPrice": 606,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 606,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 620,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.42"
+                    },
+                    "dz": 1,
+                    "parPrice": 620,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 606,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "2.7"
+                    },
+                    "parPrice": 4000,
+                    "seatCode": {
+                        "0": "F"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 3948,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T1"
+            },
+            "flightNo": {
+                "0": "3U8704"
+            },
+            "aircode": "3U",
+            "gs": "四川航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "15:00",
+            "arriTime": "17:40",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.47"
+                    },
+                    "dz": 1,
+                    "parPrice": 680,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 680,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 700,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.47"
+                    },
+                    "dz": 1,
+                    "parPrice": 700,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 680,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.3"
+                    },
+                    "parPrice": 1920,
+                    "seatCode": {
+                        "0": "J"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1887,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9407"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "15:05",
+            "arriTime": "17:50",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "738"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 726,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "3.0"
+                    },
+                    "parPrice": 4440,
+                    "seatCode": {
+                        "0": "F"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 4355,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "HU7741"
+            },
+            "aircode": "HU",
+            "gs": "海南航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "15:25",
+            "arriTime": "18:05",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "738"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.42"
+                    },
+                    "dz": 1,
+                    "parPrice": 606,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 606,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 620,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.42"
+                    },
+                    "dz": 1,
+                    "parPrice": 620,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 606,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "2.7"
+                    },
+                    "parPrice": 4000,
+                    "seatCode": {
+                        "0": "C"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "5"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 3948,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4314"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "16:45",
+            "arriTime": "19:35",
+            "depTimeId": 2,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "2.5"
+                    },
+                    "parPrice": 3700,
+                    "seatCode": {
+                        "0": "F"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 3649,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CZ3433"
+            },
+            "aircode": "CZ",
+            "gs": "中国南方航空公司",
+            "orgJetquay": "",
+            "depTime": "18:15",
+            "arriTime": "21:00",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 735,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 735,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1458,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.7"
+                    },
+                    "parPrice": 2520,
+                    "seatCode": {
+                        "0": "C"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 2503,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4312"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "19:20",
+            "arriTime": "22:15",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "MU5320"
+            },
+            "aircode": "MU",
+            "gs": "中国东方航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "19:25",
+            "arriTime": "22:20",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.46"
+                    },
+                    "dz": 1,
+                    "parPrice": 663,
+                    "seatCode": {
+                        "0": "S"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 663,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 680,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.46"
+                    },
+                    "dz": 1,
+                    "parPrice": 680,
+                    "seatCode": {
+                        "0": "S"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 663,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1460,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.05"
+                    },
+                    "parPrice": 1550,
+                    "seatCode": {
+                        "0": "C"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1524,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "2.2"
+                    },
+                    "parPrice": 3260,
+                    "seatCode": {
+                        "0": "F"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "1"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 3207,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9405"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "19:45",
+            "arriTime": "22:40",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "32F"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 726,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 726,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "0.91"
+                    },
+                    "dz": 1,
+                    "parPrice": 1340,
+                    "seatCode": {
+                        "0": "P"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "3"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1310,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4384"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "19:55",
+            "arriTime": "22:40",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "6"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T1"
+            },
+            "flightNo": {
+                "0": "3U8706"
+            },
+            "aircode": "3U",
+            "gs": "四川航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "20:10",
+            "arriTime": "22:50",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "33B"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.46"
+                    },
+                    "dz": 1,
+                    "parPrice": 660,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 660,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 680,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.46"
+                    },
+                    "dz": 1,
+                    "parPrice": 680,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 660,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.3"
+                    },
+                    "parPrice": 1920,
+                    "seatCode": {
+                        "0": "J"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1887,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "CA4390"
+            },
+            "aircode": "CA",
+            "gs": "中国国际航空公司",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "20:50",
+            "arriTime": "23:35",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-02"
+            },
+            "planeType": {
+                "0": "321"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 737,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 750,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.51"
+                    },
+                    "dz": 1,
+                    "parPrice": 750,
+                    "seatCode": {
+                        "0": "W"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 737,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1461,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.1"
+                    },
+                    "parPrice": 1630,
+                    "seatCode": {
+                        "0": "A"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "6"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1611,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "EU2202"
+            },
+            "aircode": "EU",
+            "gs": "成都航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "21:10",
+            "arriTime": "01:30",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-03"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "1"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.45"
+                    },
+                    "dz": 1,
+                    "parPrice": 649,
+                    "seatCode": {
+                        "0": "V"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 649,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 670,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.45"
+                    },
+                    "dz": 1,
+                    "parPrice": 670,
+                    "seatCode": {
+                        "0": "V"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 649,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1453,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9004"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "21:15",
+            "arriTime": "00:05",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-03"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.4"
+                    },
+                    "dz": 1,
+                    "parPrice": 568,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 568,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 590,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.4"
+                    },
+                    "dz": 1,
+                    "parPrice": 590,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 568,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "0.9"
+                    },
+                    "dz": 1,
+                    "parPrice": 1330,
+                    "seatCode": {
+                        "0": "D"
+                    },
+                    "seatMsg": "商务舱",
+                    "seatStatus": {
+                        "0": "4"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1290,
+                    "chk": false
+                }
+            ]
+        },
+        {
+            "codeShare": {
+                "0": "false"
+            },
+            "airportTax": {
+                "0": "50.0"
+            },
+            "orgAirport": "宝安机场",
+            "dstAirport": "双流机场",
+            "dstJetquay": {
+                "0": "T2"
+            },
+            "flightNo": {
+                "0": "ZH9409"
+            },
+            "aircode": "ZH",
+            "gs": "深圳航空",
+            "orgJetquay": {
+                "0": "T3"
+            },
+            "depTime": "22:00",
+            "arriTime": "00:50",
+            "depTimeId": 3,
+            "param1": {
+                "0": "2016-12-03"
+            },
+            "planeType": {
+                "0": "320"
+            },
+            "stopnum": {
+                "0": "0"
+            },
+            "chk": false,
+            "tehui": [
+                {
+                    "discount": {
+                        "0": "0.4"
+                    },
+                    "dz": 1,
+                    "parPrice": 568,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 568,
+                    "chk": false
+                }
+            ],
+            "sortPrice": 590,
+            "seatItems": [
+                {
+                    "discount": {
+                        "0": "0.4"
+                    },
+                    "dz": 1,
+                    "parPrice": 590,
+                    "seatCode": {
+                        "0": "E"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 568,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "1.0"
+                    },
+                    "parPrice": 1480,
+                    "seatCode": {
+                        "0": "Y"
+                    },
+                    "seatMsg": "经济舱",
+                    "seatStatus": {
+                        "0": "A"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1444,
+                    "chk": false
+                },
+                {
+                    "discount": {
+                        "0": "0.91"
+                    },
+                    "dz": 1,
+                    "parPrice": 1340,
+                    "seatCode": {
+                        "0": "P"
+                    },
+                    "seatMsg": "头等舱",
+                    "seatStatus": {
+                        "0": "2"
+                    },
+                    "seatType": {
+                        "0": "1"
+                    },
+                    "settlePrice": 1310,
+                    "chk": false
+                }
+            ]
+        }
+    ]
+}

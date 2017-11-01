@@ -1,0 +1,2 @@
+{"appid":"wx4a86de4887a21961","attach":[],"bank_type":"CFT","cash_fee":"762","fee_type":"CNY","is_subscribe":"Y","mch_id":"1404535202","nonce_str":"lZy22aIUhRt9YzG5","openid":"oD1n9jo2uWar1YC-bkBkutO11m14","out_trade_no":"hb20161230104430190","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"5800EEDA6E8C3A9AD01BCC99AB0D2622","time_end":"20161230104439","total_fee":"762","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4005092001201612304462221486"}
+

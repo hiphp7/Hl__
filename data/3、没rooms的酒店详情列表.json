@@ -1,0 +1,42 @@
+{
+    "code": 0,
+    "result": {
+        "hotelDetail": [
+            {
+                "hotelId": "571821555",
+                "detail": {
+                    "name": "北京升港快捷酒店军祥聚店",
+                    "enName": "Shenggang Express Hotel (Junxiangju Branch)",
+                    "address": "北京阜成门外大街36号(近中国人民解放军报社)",
+                    "starRate": "0",
+                    "category": "5",
+                    "fax": "-010-68513155",
+                    "establishmentDate": "2007",
+                    "renovationDate": "2009",
+                    "baiduLat": "39.92837224725",
+                    "baiduLon": "116.34582140677",
+                    "city": "beijing_city",
+                    "businessZone": "定居胡同,国家大剧院,前红井胡同10号",
+                    "district": "西城区",
+                    "landmarks": [
+                        {
+                            "id": "1",
+                            "name": "beijing_city"
+                        }
+                    ],
+                    "introEditor": "北京升港快捷酒店（军祥聚店）位于北京市西城区阜成门外大街上，右侧紧邻中国人民解放军报社，对面是天意小商品批发市场，距离甘家口商场500米，华联商场600米，毗临阜外性血管病医院和儿童医院，动物园，首都体育馆，西单商业区，天安门广场等地，处于商业娱乐繁华地带，交通便利，主要是以标间，三人间为主，免费提供无限网络，环境卫生，安全舒适，适合家庭旅游和各种商务活动，价格适中，可以满足您的各种住宿需求。",
+                    "description": "位于北京市西城区阜成门外大街上，右侧紧邻中国人民解放军报社，对面是天意小商品批发市场，距离甘家口商场500米。网友评价说“位置方便，房间安静，性价比比较高，服务热情，地里位置比较方便，早餐味道不错”。",
+                    "airportPickUpService": "不确定",
+                    "generalAmenities": "24小时热水,接待外宾",
+                    "roomAmenities": "宽带,空调,洗衣服务,唤醒服务,行李寄存",
+                    "surroundings": "天意批发市场|阜外心血管医院",
+                    "facilities": "停车场,商务中心",
+                    "thumbnailId": "http://userimg.qunar.com/imgs/201203/15/l4ytplqZYgtNux9Ll180s.jpg",
+                    "updateTime": 1458117695000,
+                    "commentScore": 0
+                }
+            }
+        ]
+    },
+    "version": "3.1.0"
+}

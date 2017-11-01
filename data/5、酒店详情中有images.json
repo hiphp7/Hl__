@@ -1,0 +1,137 @@
+{
+    "code": 0,
+    "result": {
+        "hotelDetail": [
+            {
+                "hotelId": "571823698",
+                "detail": {
+                    "name": "格林豪泰天津滨江道快捷酒店",
+                    "address": "天津市和平区滨江道127号",
+                    "category": "1",
+                    "phone": "022-27110998",
+                    "fax": "-022-27125558",
+                    "establishmentDate": "2010",
+                    "renovationDate": "2010",
+                    "brandId": "gelinhaotai",
+                    "isApartment": "1",
+                    "baiduLat": "39.133301657248",
+                    "baiduLon": "117.20892391319",
+                    "city": "tianjin_city",
+                    "district": "和平区",
+                    "landmarks": [
+                        {
+                            "id": "1",
+                            "name": "tianjin_city"
+                        },
+                        {
+                            "id": "2",
+                            "name": "hepingqu_tianjin_city"
+                        }
+                    ],
+                    "introEditor": "格林豪泰-天津滨江道快捷酒店位于天津市和平区滨江道127号（原中国大戏院）。地处繁华的滨江道、金街商业中心黄金地段，各类大型商场、餐饮娱乐场所、名胜古迹近在咫尺，周围景点众多，地理位置优越，距步行街、商业街仅五十米，距中国大戏院、名流茶馆等娱乐场所仅在步行之遥，旁边的辽宁路小吃街亦是当地餐饮行业的一景。毗邻天津著名的海河，五大道历史建筑遗址、食品街等景点。",
+                    "description": "地处繁华的滨江道、金街商业中心黄金地段，毗邻天津著名的海河，五大道历史建筑遗址、食品街，步行可至中国大戏院、名流茶馆、辽宁路小吃街。",
+                    "airportPickUpService": "不确定",
+                    "generalAmenities": "不接待外宾",
+                    "roomAmenities": "宽带,唤醒服务",
+                    "facilities": "商务中心,无线上网的公共区域",
+                    "images": [
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFqRA0WpZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 0
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qF-z6AXxZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 2
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFmj13aFZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 2
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFflxqoiZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 3
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFTg_zbzZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": -1
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFqRA0WpZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 0
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qF-z6AXxZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 2
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFmj13aFZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 2
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFflxqoiZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": 3
+                        },
+                        {
+                            "locations": [
+                                {
+                                    "value": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFTg_zbzZ180s.jpg"
+                                }
+                            ],
+                            "roomId": "NULL",
+                            "type": -1
+                        }
+                    ],
+                    "thumbnailId": "http://userimg.qunar.com/imgs/201205/11/Z7S8IZk5qFqRA0WpZ180s.jpg",
+                    "updateTime": 1454572180000,
+                    "commentScore": 0
+                }
+            }
+        ]
+    },
+    "version": "3.1.0"
+}

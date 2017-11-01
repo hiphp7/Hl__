@@ -1,0 +1,18 @@
+﻿[
+    {
+        "Type": 1,
+        "Name": "身份证",
+        "sortId": 1
+    },
+    {
+        "Type": 2,
+        "Name": "护照",
+        "sortId": 2
+    },
+    {
+        "Type": 3,
+        "Name": "其他证件",
+        "sortId": 3
+    }
+
+]

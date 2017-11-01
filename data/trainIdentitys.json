@@ -1,0 +1,22 @@
+﻿
+[{
+	"Type": 1,
+	"Name": "一代身份证",
+	"sortId": 0
+}, {
+	"Type": 2,
+	"Name": "二代身份证",
+	"sortId": 1
+}, {
+	"Type": 3,
+	"Name": "港澳通行证",
+	"sortId": 2
+}, {
+	"Type": 4,
+	"Name": "台湾通行证",
+	"sortId": 3
+}, {
+	"Type": 5,
+	"Name": "护照",
+	"sortId": 4
+}]

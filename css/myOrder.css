@@ -1,0 +1,1005 @@
+/*.container {
+
+        max-width: 100%;
+
+        height: 100%;
+
+        overflow: hidden;
+
+}
+*/
+/*.myOrder {
+
+        width: 100%;
+
+        height: 100%;
+
+        float: left;
+
+        background-color: #f7f7f7;
+
+        overflow-x: hidden;
+
+}
+
+.myOrder .head {
+
+        position: fixed;
+
+        left: 0;
+
+        top: 0;
+
+        width: 100%;
+
+        z-index: 10;
+
+}*/
+
+.myOrder .center {
+
+        /*margin-top: 2.2rem;*/
+
+        width: 100%;
+
+        float: left;
+
+        background-color: #f7f7f7;
+
+        position: relative;
+
+        float: left;
+
+}
+
+.myOrder .center .orderType {
+
+        position: fixed;
+
+        left: 0;
+
+        /*top: 2.2rem;*/
+
+        height: 3rem;
+
+        box-sizing: border-box;
+
+        border-top: 1px solid #dededf;
+
+        border-bottom: 1px solid #dededf;
+
+        background-color: #fff;
+
+        width: 100%;
+
+        z-index: 10;
+
+}
+
+.myOrder .center .orderType .row {
+
+        width: 100%;
+
+        height: 2.9rem;
+
+        float: left;
+
+}
+
+.myOrder .center .orderType .row .column {
+
+        width: 50%;
+
+        height: 2.9rem;
+
+        line-height: 2.9rem;
+
+        text-align: center;
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        border-bottom: 0;
+
+        float: left;
+
+}
+
+.myOrder .center .orderType .row .column.selected {
+
+        border-bottom: 3px solid #49D3DD !important;
+
+        color: #49D3DD;
+
+}
+
+.myOrder .center .orderType .row .column:nth-of-type(3) {
+
+        float: right;
+
+}
+
+.myOrder .center .orderLists {
+
+        width: 100%;
+
+        overflow: hidden;
+
+        float: left;
+
+        margin-top: 3.5rem;
+
+}
+
+.myOrder .center .orderLists .orderList {
+
+        width: 100%;
+
+        margin-bottom: 0.5rem;
+
+        display: none;
+
+        float: left;
+
+}
+
+.myOrder .center .orderLists .orderList .item {
+
+        width: 100%;
+
+        border-top: 1px solid #e4e3e4;
+
+        border-bottom: 1px solid #e4e3e4;
+
+        margin-bottom: 0.5rem;
+
+        float: left;
+
+        background-color: #fff;
+
+}
+
+.myOrder .center .orderLists .orderList .item:last-of-type {
+
+        margin-bottom: 1rem;
+
+}
+
+.myOrder .center .orderLists .orderList .noMorePrompt {
+
+        width: 100%;
+
+        color: #999;
+
+        font-size: 1.2rem;
+
+        float: left;
+
+        margin-bottom: 0.5rem;
+
+        text-align: center;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row {
+
+        width: 100%;
+
+        padding: 0 0.75rem;
+
+        float: left;
+
+        box-sizing: border-box;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) {
+
+        height: 3rem;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) .column {
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 2.75rem;
+
+        border-bottom: 1px solid #ededed;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) .column i {
+
+        /*background: url(http://m.bibi321.com/hl/resources/user/img/userCenter-icons.png) 0px -78px;*/
+
+        background: url(../resources/train/images/fca.png) no-repeat center;
+        background-size: contain;
+        height: 24px;
+
+        padding-left: 22px;
+
+        display: inline-block;
+
+        margin-right: 0.1rem;
+
+        vertical-align: middle;
+
+        -webkit-transform: scale(0.75);
+
+        -moz-transform: scale(0.75);
+
+        -ms-transform: scale(0.75);
+
+        transform: scale(0.75);
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) .column span {
+
+        font-size: 1.3rem;
+
+        display: inline-block;
+
+        vertical-align: middle;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) {
+
+        height: 3rem;
+
+        line-height: 3rem;
+        margin-top: 0;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(1) {
+
+        width: 70%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        float: left;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(1) span.city {
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        display: inline-block;
+
+        margin-right: 0.3rem;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(1) span.train {
+
+        font-size: 1.3rem;
+
+        color: #999;
+
+        display: inline-block;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(2) {
+
+        width: 30%;
+
+        height: 2.1rem;
+
+        line-height: 2.1rem;
+
+        float: right;
+
+        text-align: right;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(2) span.money {
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        float: right;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(2) .column:nth-of-type(2) span.money i {
+
+        font-size: 1.3rem;
+
+        font-style: normal;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) .column span.status {
+
+        font-size: 1.3rem;
+
+        /*float: right;*/
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(1) .column span.status.obligation {
+
+        color: #ff6d6d;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(3) {
+
+        height: 3rem;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(3) .column {
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        border-bottom: 1px solid #ededed;
+
+        font-size: 1.2rem;
+
+        color: #999;
+
+        box-sizing: border-box;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:last-of-type .column{
+
+      border-bottom: 0;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:last-of-type .column {
+
+        border-bottom: 0;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(4) {
+
+        height: 2.5rem;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(4) .column {
+
+        width: 100%;
+
+        height: 2.5rem;
+
+        display: -webkit-flex;
+
+        display: -ms-flex;
+
+        display: flex;
+
+        justify-content: flex-end;
+
+        -ms-align-items: center;
+
+        align-items: center;
+
+        -webkit-flex-direction: row;
+
+        -moz-flex-direction: row;
+
+        -ms-flex-direction: row;
+
+        flex-direction: row;
+
+        display: -webkit-box;
+
+        -webkit-box-align: center;
+
+        -webkit-box-pack: end;
+
+        -webkit-box-orient: horizontal;
+
+        float: left;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(4) .btn {
+
+        color: #707070;
+
+        width: 3.6rem;
+
+        height: 1.5rem;
+
+        line-height: 1.5rem;
+
+        text-align: center;
+
+        font-size: 0.64rem;
+
+        border: 1px solid #dddddd;
+
+        margin-left: 0.5rem;
+
+        display: none;
+
+}
+
+.myOrder .center .orderLists .orderList .item .row:nth-of-type(4) .btn.pay, .myOrder .center .orderLists .orderList .item .row:nth-of-type(4) .btn.refund {
+
+        color: #ff6d6d;
+
+        border-color: #ff6d6d;
+
+}
+
+.myOrder .foot {
+
+        width: 100%;
+
+        position: fixed;
+
+        left: 0;
+
+        /*bottom: 0;*/
+
+        height: 5.5rem;
+
+        background-color: rgba(90, 107, 131, 0.96);
+
+}
+
+.myOrder .foot ul {
+
+        width: 100%;
+
+        height: 100%;
+
+}
+
+.myOrder .foot ul li {
+
+        width: 100%;
+
+        height: 100%;
+
+        display: -webkit-flex;
+
+        display: -ms-flex;
+
+        display: flex;
+
+        justify-content: center;
+
+        -ms-align-items: center;
+
+        align-items: center;
+
+        -webkit-flex-direction: row;
+
+        -moz-flex-direction: row;
+
+        -ms-flex-direction: row;
+
+        flex-direction: row;
+
+        display: -webkit-box;
+
+        -webkit-box-align: center;
+
+        -webkit-box-pack: center;
+
+        -webkit-box-orient: horizontal;
+
+}
+
+.myOrder .foot ul li div.time {
+
+        display: block;
+
+        width: 50%;
+
+        height: 100%;
+
+}
+
+.myOrder .foot ul li div.time div {
+
+        display: -webkit-flex;
+
+        display: -ms-flex;
+
+        display: flex;
+
+        justify-content: center;
+
+        -ms-align-items: center;
+
+        align-items: center;
+
+        -webkit-flex-direction: row;
+
+        -moz-flex-direction: row;
+
+        -ms-flex-direction: row;
+
+        flex-direction: row;
+
+        display: -webkit-box;
+
+        -webkit-box-align: center;
+
+        -webkit-box-pack: center;
+
+        -webkit-box-orient: horizontal;
+
+        width: 100%;
+
+        height: 100%;
+
+        float: left;
+
+}
+
+.myOrder .foot ul li div.time div span:nth-of-type(1) {
+
+        display: inline-block;
+
+        width: 100%;
+
+        text-align: center;
+
+        position: relative;
+
+}
+
+.myOrder .foot ul li div.time div span:nth-of-type(1) i {
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/train-icons.png) no-repeat 0px -57px;
+
+        height: 19px;
+
+        padding-left: 22px;
+
+        display: inline-block;
+
+}
+
+.myOrder .foot ul li div.time div span:nth-of-type(1) input {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        z-index: 1;
+
+        opacity: 0;
+
+}
+
+.myOrder .foot ul li div.time.selected div span:nth-of-type(1) i {
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/train-icons.png) no-repeat 0px -95px;
+
+        height: 19px;
+
+        padding-left: 22px;
+
+}
+
+.myOrder .foot ul li div.time div span:nth-of-type(2) {
+
+        width: 100%;
+
+        text-align: center;
+
+        font-size: 1.3rem;
+
+        color: #fff;
+
+        display: inline-block;
+
+}
+
+.myOrder .foot ul li div.time.selected div span:nth-of-type(2) {
+
+        color: #ff6d6d;
+
+}
+
+.myOrder .foot ul li div.orderOption {
+
+        display: block;
+
+        width: 50%;
+
+        height: 100%;
+
+}
+
+.myOrder .foot ul li div.orderOption div {
+
+        width: 100%;
+
+        height: 100%;
+
+        float: left;
+
+        display: -webkit-flex;
+
+        display: -ms-flex;
+
+        display: flex;
+
+        justify-content: center;
+
+        -ms-align-items: center;
+
+        align-items: center;
+
+        -webkit-flex-direction: row;
+
+        -moz-flex-direction: row;
+
+        -ms-flex-direction: row;
+
+        flex-direction: row;
+
+        display: -webkit-box;
+
+        -webkit-box-align: center;
+
+        -webkit-box-pack: center;
+
+        -webkit-box-orient: horizontal;
+
+}
+
+.myOrder .foot ul li div.orderOption p {
+
+        width: 100%;
+
+        display: inline-block;
+
+        position: relative;
+
+        text-align: left;
+
+        box-sizing: border-box;
+
+        padding-left: 0.5rem;
+
+}
+
+.myOrder .foot ul li div.orderOption p:nth-of-type(1) {
+
+        margin-bottom: 0.4rem;
+
+}
+
+.myOrder .foot ul li div.orderOption p input {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        opacity: 0;
+
+}
+
+.myOrder .foot ul li div.orderOption p i {
+
+        width: 18px;
+
+        height: 18px;
+
+        border: 1px solid #fff;
+
+        display: inline-block;
+
+        vertical-align: middle;
+
+}
+
+.myOrder .foot ul li div.orderOption p input:checked+i {
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/order-icons.png) no-repeat 0px -58px;
+
+        border: 0;
+
+        height: 18px;
+
+        padding-left: 20px;
+
+}
+
+.myOrder .foot ul li div.orderOption p span {
+
+        font-size: 1.3rem;
+
+        color: #fff;
+
+        display: inline-block;
+
+        margin-left: 0.5rem;
+
+        vertical-align: middle;
+
+}
+
+.myOrder .foot ul li div.orderOption p.selected span {
+
+        /*font-size: 0.55rem;*/
+
+        color: #ff6d6d;
+
+}
+/*
+.msgBox_promptBox {
+
+        position: fixed;
+
+        width: 60%;
+
+        top: 50%;
+
+        left: 50%;
+
+        margin-left: -30%;
+
+        padding: 0.75rem 0.25rem;
+
+        font-size: 0.8rem;
+
+        color: #fff;
+
+        text-align: center;
+
+        -webkit-border-radius: 0.15rem;
+
+        -moz-border-radius: 0.15rem;
+
+        border-radius: 0.15rem;
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/bg_88000.png);
+
+        z-index: 100000;
+
+}
+
+.msgBox_tisomeBox {
+
+        position: fixed;
+
+        width: 100%;
+
+        height: 100%;
+
+        top: 0;
+
+        left: 0;
+
+        text-align: center;
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/bg_060.png);
+
+        z-index: 100000;
+
+}
+
+.msgBox_tisomeBox div {
+
+        position: absolute;
+
+        width: 80%;
+
+        top: 40%;
+
+        left: 50%;
+
+        height: auto;
+
+        margin-left: -40%;
+
+        padding: 0.5rem;
+
+        -webkit-border-radius: 0.15rem;
+
+        -moz-border-radius: 0.15rem;
+
+        border-radius: 0.15rem;
+
+        background-color: #fff;
+
+        box-sizing: border-box;
+
+}
+
+.msgBox_txt {
+
+        font-size: 0.8rem;
+
+        color: #181818;
+
+        border-bottom: 1px solid #e9e9e9;
+
+        padding-top: 0.25rem;
+
+        padding-bottom: 1rem;
+
+}
+
+.msgBox_btn {
+
+        font-size: 0.7rem;
+
+        color: #289deb;
+
+        display: block;
+
+        padding-top: 1rem;
+
+}
+
+.msgBox_btn a {
+
+        padding: 0 1.5rem;
+
+        color: #289deb;
+
+}
+
+.loading-bg {
+
+        position: fixed;
+
+        width: 100%;
+
+        height: 100%;
+
+        left: 0;
+
+        top: 0;
+
+        right: 0;
+
+        bottom: 0;
+
+        z-index: 100000;
+
+        display: -webkit-box;
+
+        display: -moz-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+
+        -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+        justify-content: center;
+
+        -webkit-box-align: center;
+
+        -ms-flex-align: center;
+
+        align-items: center;
+
+        -webkit-transition: 0.2s opacity linear;
+
+        transition: 0.2s opacity linear;
+
+        visibility: visible;
+
+        opacity: 1;
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/bg_060.png);
+
+}
+
+.loading {
+
+        padding: 1.5rem 1rem;
+
+        border-radius: 5px;
+
+        color: #fff;
+
+        text-align: center;
+
+        font-size: 16px;
+
+        background-color: rgba(0, 0, 0, 0.7);
+
+        text-overflow: ellipsis;
+
+}
+
+.dofingBox {
+
+        width: 100%;
+
+        height: 100%;
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/bg_060.png);
+
+        z-index: 100000;
+
+        text-align: center;
+
+}
+
+.sidBox {
+
+        padding: 1rem 2rem;
+
+        min-width: 30%;
+
+        max-width: 70%;
+
+        height: auto;
+
+        font-size: 12px;
+
+        color: #fff;
+
+        text-align: center;
+
+        background: url(http://m.bibi321.com/hl/resources/user/img/bg_88000.png);
+
+        border-radius: 0.3rem;
+
+        -moz-border-radius: 0.3rem;
+
+        -webkit-border-radius: 0.3rem;
+
+        margin: 13rem auto;
+
+        display: inline-block;
+
+}
+
+.c_797979 {
+
+        color: #797979;
+
+}
+
+.c_999 {
+
+        color: #999;
+
+}
+
+.c_ff6d6d {
+
+        color: #ff6d6d;
+
+}
+*/

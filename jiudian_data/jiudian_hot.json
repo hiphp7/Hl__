@@ -1,0 +1,92 @@
+[
+    [{
+            "provinceId": "beijing",
+            "cityName": "北京",
+            "cityCode": "beijing_city",
+            "parentCityCode": "beijing_city"
+        },
+        {
+            "provinceId": "shanghai",
+            "cityName": "上海",
+            "cityCode": "shanghai_city",
+            "parentCityCode": "shanghai_city"
+        },
+        {
+            "provinceId": "guangdong",
+            "cityName": "深圳",
+            "cityCode": "shenzhen",
+            "parentCityCode": "shenzhen"
+        }],
+    [{
+            "provinceId": "fujian",
+            "cityName": "厦门",
+            "cityCode": "xiamen",
+            "parentCityCode": "xiamen"
+        },
+        {
+            "provinceId": "zhejiang",
+            "cityName": "杭州",
+            "cityCode": "hangzhou",
+            "parentCityCode": "hangzhou"
+        },
+        {
+            "provinceId": "hainan",
+            "cityName": "三亚",
+            "cityCode": "sanya",
+            "parentCityCode": "sanya"
+        }],
+    [{
+            "provinceId": "guangdong",
+            "cityName": "湛江",
+            "cityCode": "zhanjiang",
+            "parentCityCode": "zhanjiang"
+        },
+        {
+            "provinceId": "guangdong",
+            "cityName": "广州",
+            "cityCode": "guangzhou",
+            "parentCityCode": "guangzhou"
+        },
+        {
+            "provinceId": "chongqing",
+            "cityName": "重庆",
+            "cityCode": "chongqing_city",
+            "parentCityCode": "chongqing_city"
+        }],
+    [{
+            "provinceId": "sichuan",
+            "cityName": "成都",
+            "cityCode": "chengdu",
+            "parentCityCode": "chengdu"
+        },
+        {
+            "provinceId": "shandong",
+            "cityName": "青岛",
+            "cityCode": "qingdao",
+            "parentCityCode": "qingdao"
+        },
+        {
+            "provinceId": "aomen",
+            "cityName": "澳门",
+            "cityCode": "macao_city",
+            "parentCityCode": "macao_city"
+        }],
+    [{
+            "provinceId": "hubei",
+            "cityName": "武汉",
+            "cityCode": "wuhan",
+            "parentCityCode": "wuhan"
+        },
+        {
+            "provinceId": "jiangsu",
+            "cityName": "南京",
+            "cityCode": "nanjing",
+            "parentCityCode": "nanjing"
+        },
+        {
+            "provinceId": "shanxi",
+            "cityName": "西安",
+            "cityCode": "xian",
+            "parentCityCode": "xian"
+        }]
+]

@@ -1,0 +1,67 @@
+[
+    [{
+        "code": "PEK",
+        "city": "北京",
+        "pinyin": "Beijing"
+    }, {
+        "code": "SHA",
+        "city": "上海",
+        "pinyin": "Shanghai"
+    }, {
+        "code": "XMN",
+        "city": "厦门",
+        "pinyin": "Xiamen"
+    }],
+    [{
+        "code": "HGH",
+        "city": "杭州",
+        "pinyin": "Hangzhou"
+    }, {
+        "code": "SYX",
+        "city": "三亚",
+        "pinyin": "Sanya"
+    }, {
+        "code": "ZHA",
+        "city": "湛江",
+        "pinyin": "Zhanjiang"
+    }],
+    [{
+        "code": "CAN",
+        "city": "广州",
+        "pinyin": "Guangzhou"
+    }, {
+        "code": "CKG",
+        "city": "重庆",
+        "pinyin": "chongqing"
+    }, {
+        "code": "CTU",
+        "city": "成都",
+        "pinyin": "Chengdu"
+    }],
+    [{
+        "code": "SZX",
+        "city": "深圳",
+        "pinyin": "Shenzhen"
+    }, {
+        "code": "TAO",
+        "city": "青岛",
+        "pinyin": "Qingdao"
+    }, {
+        "code": "MFM",
+        "city": "澳门",
+        "pinyin": "Aomen"
+    }],
+    [{
+        "code": "WUH",
+        "city": "武汉",
+        "pinyin": "Wuhan"
+    }, {
+        "code": "NKG",
+        "city": "南京",
+        "pinyin": "Nanjing"
+    }, {
+        "code": "XIY",
+        "city": "西安",
+        "pinyin": "Xian"
+    }]
+]

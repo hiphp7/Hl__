@@ -1,0 +1,136 @@
+{
+    "code": 0,
+    "result": {
+        "hotels": [
+            {
+                "hotelId": "571821570",
+                "updatedTime": 1454579842000
+            },
+            {
+                "hotelId": "571820638",
+                "updatedTime": 1454576487000
+            },
+            {
+                "hotelId": "571820642",
+                "updatedTime": 1460968861000
+            },
+            {
+                "hotelId": "571821511",
+                "updatedTime": 1454579765000
+            },
+            {
+                "hotelId": "571820641",
+                "updatedTime": 1460467624000
+            },
+            {
+                "hotelId": "571821518",
+                "updatedTime": 1459246221000
+            },
+            {
+                "hotelId": "571821555",
+                "updatedTime": 1458117695000
+            },
+            {
+                "hotelId": "571820640",
+                "updatedTime": 1460022930000
+            },
+            {
+                "hotelId": "571820652",
+                "updatedTime": 1460022841000
+            },
+            {
+                "hotelId": "571820637",
+                "updatedTime": 1454578490000
+            },
+            {
+                "hotelId": "571823698",
+                "updatedTime": 1454572180000
+            },
+            {
+                "hotelId": "571820634",
+                "updatedTime": 1454577984000
+            },
+            {
+                "hotelId": "573111294",
+                "updatedTime": 1480904387000
+            },
+            {
+                "hotelId": "571821574",
+                "updatedTime": 1436448465000
+            },
+            {
+                "hotelId": "571821519",
+                "updatedTime": 1460100155000
+            },
+            {
+                "hotelId": "571821516",
+                "updatedTime": 1458200001000
+            },
+            {
+                "hotelId": "571821520",
+                "updatedTime": 1454579958000
+            }
+        ]
+    },
+    "version": "3.1.0"
+}
+
+
+object(stdClass)[21]
+  public 'code' => int 0
+  public 'result' => 
+    object(stdClass)[20]
+      public 'hotels' => 
+        array
+          0 => 
+            object(stdClass)[19]
+              ...
+          1 => 
+            object(stdClass)[22]
+              ...
+          2 => 
+            object(stdClass)[23]
+              ...
+          3 => 
+            object(stdClass)[24]
+              ...
+          4 => 
+            object(stdClass)[25]
+              ...
+          5 => 
+            object(stdClass)[26]
+              ...
+          6 => 
+            object(stdClass)[27]
+              ...
+          7 => 
+            object(stdClass)[28]
+              ...
+          8 => 
+            object(stdClass)[29]
+              ...
+          9 => 
+            object(stdClass)[30]
+              ...
+          10 => 
+            object(stdClass)[31]
+              ...
+          11 => 
+            object(stdClass)[32]
+              ...
+          12 => 
+            object(stdClass)[33]
+              ...
+          13 => 
+            object(stdClass)[34]
+              ...
+          14 => 
+            object(stdClass)[35]
+              ...
+          15 => 
+            object(stdClass)[36]
+              ...
+          16 => 
+            object(stdClass)[37]
+              ...
+  public 'version' => string '3.1.0' (length=5)

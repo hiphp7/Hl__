@@ -1,0 +1,126 @@
+{
+    "code": 0,
+    "result": {
+        "hotelDetail": [
+            {
+                "hotelId": "571820638",
+                "detail": {
+                    "name": "香港如心海景酒店暨会议中心(L'Hotel Nina et Convention Centre)",
+                    "enName": "L'Hotel Nina et Convention Centre",
+                    "address": "香港荃湾杨屋道8号",
+                    "category": "3",
+                    "phone": "00852-22802898",
+                    "fax": "-00852-22802822",
+                    "establishmentDate": "2007",
+                    "renovationDate": "2007",
+                    "baiduLat": "22.372307855816",
+                    "baiduLon": "114.12506711356",
+                    "city": "hongkong_city",
+                    "businessZone": "荃湾",
+                    "district": "荃湾区",
+                    "landmarks": [
+                        {
+                            "id": "1",
+                            "name": "hongkong_city"
+                        }
+                    ],
+                    "introEditor": "酒店位于荃湾区宁静的海滨旁侧，拥有客房1600间，设有多个大型会展及会议厅；交通方便，四通八达；步行5分钟可到达荃湾西地铁站。酒店附近购物商场林立，十分方便。酒店不仅坐享360度维多利亚海港全景及俯瞰大帽山蓝巴勒海峡等怡人美景，更尽享地理优势，邻近巴士总站、渡轮码头、荃湾九广西铁站、连接地下铁荃湾线、东涌线及机场快线，交通四通八达。酒店设计华丽的5星级房间，两栋大楼以一座底部由玻璃制造的桥梁连接。所有房间均拥有令人满意的景观：蓝天白云的海景或繁华城市及翠绿山景。房内的家私均为名师匠心独运，混合时尚及实用，精心设计。再加上酒店员工的诚恳服务，健身及桑拿设备及室内外泳池，务求令客人感到宾至如归。",
+                    "description": "坐落于香港荃湾区宁静的海滨旁侧，邻近巴士总站、渡轮码头、荃湾九广西铁站。网友评价说“交通很方便，房间很大，性价比高的，服务很好，离地铁站很近，性价比很高”。",
+                    "airportPickUpService": "不确定",
+                    "generalAmenities": "",
+                    "roomAmenities": "无烟房,宽带,吹风机,空调,洗衣服务,看护小孩服务,唤醒服务,残疾人设施,国际长途电话,行李寄存",
+                    "recreationAmenities": "室内游泳池,室外游泳池,健身房,SPA",
+                    "conferenceAmenities": "会议室",
+                    "diningAmenities": "中式餐厅,西式餐厅",
+                    "features": "3",
+                    "surroundings": "荃湾公园",
+                    "facilities": "租车,无线上网的公共区域",
+                    "thumbnailId": "http://userimg.qunar.com/imgs/201207/23/g79dVggyWSjpzNmTg180s.jpg",
+                    "updateTime": 1454576487000,
+                    "commentScore": 0
+                },
+                "rooms": [
+                    {
+                        "roomTypeId": "14112949",
+                        "name": "海景房",
+                        "floor": "11-37层",
+                        "broadnet": "收费",
+                        "bedType": "大床1.80m，双床1.50m",
+                        "area": "32㎡",
+                        "bath": "",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "有窗",
+                        "wifi": ""
+                    },
+                    {
+                        "roomTypeId": "41359713",
+                        "name": "高级房",
+                        "floor": "42-85层",
+                        "broadnet": "收费",
+                        "bedType": "",
+                        "area": "31㎡",
+                        "bath": "",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "有窗",
+                        "wifi": ""
+                    },
+                    {
+                        "roomTypeId": "665555530",
+                        "name": "家庭套房",
+                        "floor": "78-85层",
+                        "broadnet": "免费",
+                        "bedType": "",
+                        "area": "62㎡",
+                        "bath": "",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "有窗",
+                        "wifi": ""
+                    },
+                    {
+                        "roomTypeId": "665555534",
+                        "name": "行政海景房",
+                        "floor": "42-73,75,87层",
+                        "broadnet": "免费",
+                        "bedType": "",
+                        "area": "49㎡",
+                        "bath": "公用卫浴",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "无窗",
+                        "wifi": "有"
+                    },
+                    {
+                        "roomTypeId": "891212828",
+                        "name": "标准房",
+                        "floor": "11-21层",
+                        "broadnet": "收费",
+                        "bedType": "大床1.8/双床1.5m",
+                        "area": "28㎡",
+                        "bath": "",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "有窗",
+                        "wifi": ""
+                    },
+                    {
+                        "roomTypeId": "891212830",
+                        "name": "高座海景房",
+                        "floor": "42-85层",
+                        "broadnet": "收费",
+                        "bedType": "",
+                        "area": "31㎡",
+                        "bath": "",
+                        "maxCustomers": "2",
+                        "highLights": "",
+                        "window": "有窗",
+                        "wifi": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "version": "3.1.0"
+}

@@ -1,0 +1,37 @@
+[
+    [{
+        "stationName": "北京西"
+    }, {
+        "stationName": "上海西"
+    }, {
+        "stationName": "厦门"
+    }],
+    [{
+        "stationName": "杭州东"
+    }, {
+        "stationName": "郑州"
+    }, {
+        "stationName": "洛阳"
+    }],
+    [{
+        "stationName": "广州南"
+    }, {
+        "stationName": "重庆北"
+    }, {
+        "stationName": "成都东"
+    }],
+    [{
+        "stationName": "深圳北"
+    }, {
+        "stationName": "青岛"
+    }, {
+        "stationName": "沈阳"
+    }],
+    [{
+        "stationName": "武汉"
+    }, {
+        "stationName": "南京"
+    }, {
+        "stationName": "西安"
+    }]
+]

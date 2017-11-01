@@ -1,0 +1,2845 @@
+.order {
+
+        background-color: #f7f7f7;
+
+}
+
+
+
+.order .head {
+
+        position: fixed;
+
+        left: 0;
+
+        top: 0;
+
+        width: 100%;
+
+        z-index: 10;
+
+}
+
+
+
+.order .head .orderInfo {
+
+        position: absolute;
+
+        top: 50%;
+
+        right: 0.9rem;
+
+        height: 0.75rem;
+
+        font-size: 0.75rem;
+
+        color: #fff;
+
+        cursor: pointer;
+
+        line-height: 0.75rem;
+
+        margin-top: -0.375rem;
+
+}
+
+
+
+.order .center {
+
+
+        width: 100%;
+
+        overflow: hidden;
+
+}
+
+
+
+.order .center .stationInfo {
+
+        width: 100%;
+
+        float: left;
+
+        background-color: #fff;
+
+        border-bottom: 1px solid #e9e9e9;
+
+}
+
+
+
+.order .center .stationInfo .row {
+
+        width: 100%;
+
+        float: left;
+
+}
+
+
+
+.order .center .stationInfo .row:nth-child(1) {
+
+        margin-top: 0.65rem;
+
+        margin-bottom: 0.75rem;
+
+}
+
+
+
+.order .center .stationInfo .row span {
+
+        width: 33%;
+
+/*        height: 0.8rem;
+
+        line-height: 0.8rem;*/
+
+        color: #34353a;
+
+        font-size: 1.3rem;
+
+        float: left;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+
+        white-space: nowrap;
+
+}
+
+
+
+.order .center .stationInfo .row .startStation, .order .center .stationInfo .row .startTime, .order .center .stationInfo .row .startDate {
+
+        padding-left: 0.7rem;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .stationInfo .row .train, .order .center .stationInfo .row .countTime {
+
+        text-align: center;
+
+}
+
+
+
+.order .center .stationInfo .row .endStation, .order .center .stationInfo .row .endTime, .order .center .stationInfo .row .endDate {
+
+        padding-right: 0.7rem;
+
+        text-align: right;
+
+}
+
+
+
+.order .center .stationInfo .row:nth-child(2) {
+
+        margin-bottom: 0.75rem;
+
+}
+
+
+
+.order .center .stationInfo .row:nth-child(2) span {
+
+        font-size: 1.2rem;
+
+        height: 2.6rem;
+
+        line-height: 1.25rem;
+
+}
+
+
+
+.order .center .stationInfo .row .trainTimeText {
+
+        position: relative;
+
+}
+
+
+
+.order .center .stationInfo .row .trainTimeText i {
+
+        height: 0.05rem;
+
+        width: 100%;
+
+        position: absolute;
+
+        top: 50%;
+
+        left: 0;
+
+        margin-top: -0.025rem;
+
+        background-color: #FF9514;
+
+        z-index: 1;
+
+}
+
+
+
+.order .center .stationInfo .row .trainTimeText span {
+                border-radius: 8px;
+        width: 80%;
+
+        /*height: 80%; */
+
+        line-height: 100%;
+
+        font-size: 1.2rem;
+
+        color: white;
+
+        position: absolute;
+
+        top: 0%;
+
+        left: 10%;
+
+        z-index: 2;
+
+        border: 2px solid #efefef;
+
+        clear: left;
+
+        overflow: auto;
+
+        text-align: center;
+
+        background-color: #FF9514;
+
+}
+
+
+
+.order .center .stationInfo .row:nth-child(3) {
+
+        margin-bottom: 0.65rem;
+
+}
+
+
+
+.order .center .selectedSeat {
+
+        width: 100%;
+
+        height: 2.8rem;
+
+        line-height: 2.8rem;
+
+        border-bottom: 1px solid #ededed;
+
+        float: left;
+
+        background: #fff;
+
+}
+
+
+
+.order .center .selectedSeat span {
+
+        height: 2.8rem;
+
+        line-height: 2.7rem;
+
+        color: #999;
+
+        font-size: 1.3rem;
+
+}
+
+
+
+.order .center .selectedSeat>span:nth-of-type(1) {
+
+        margin-left: 0.75rem;
+
+        float: left;
+
+}
+
+
+
+.order .center .selectedSeat>span:nth-of-type(2) {
+
+        float: right;
+
+        margin-right: 0.75rem;
+
+        color: #34353a;
+
+}
+
+
+
+.order .center .selectedSeat>span:nth-of-type(2)>span {
+
+        color: #34353a;
+
+}
+
+
+
+.order .center .selectedSeat>span:nth-of-type(2) i {
+
+        color: #ff6d6d;
+
+        font-style: normal;
+
+        font-size: 1.3rem;
+
+        display: inline-block;
+
+        margin-left: 0.2rem;
+
+}
+
+
+
+.order .center .selectedSeat span:nth-of-type(2) i+span {
+
+        color: #ff6d6d;
+
+        font-style: normal;
+
+        font-size: 1.3rem;
+
+        display: inline-block;
+
+}
+
+
+
+.order .center .passenger {
+
+        width: 100%;
+
+        height: 2.8rem;
+
+        float: left;
+
+        border-top: 1px solid #f3f3f3;
+
+        border-bottom: 1px solid #f3f3f3;
+
+        background: #fff;
+
+        margin-top: 0.5rem;
+
+}
+
+
+
+.order .center .passenger>span {
+
+        width: 50%;
+
+        height: 2.8rem;
+
+        line-height: 2.8rem;
+
+        float: left;
+
+        color: #999;
+
+        text-align: right;
+
+}
+
+
+
+.order .center .passenger>span:nth-of-type(1) {
+
+        width: 33%;
+
+}
+
+
+
+.order .center .passenger>span:nth-of-type(2) {
+
+        width: 33%;
+
+}
+
+
+
+.order .center .passenger>span.title+span.detail {
+
+        width: 50%;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .passenger>span.title+span.btn {
+
+        width: 24%;
+
+}
+
+
+
+.order .center .passenger span.title {
+
+        font-size: 1.3rem;
+
+        padding-left: 0.75rem;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .passenger span.detail {
+
+        font-size: 1.3rem;
+
+        text-align: center;
+
+}
+
+
+
+.order .center .passenger span.detail>span {
+
+        width: 50%;
+
+}
+
+
+
+.order .center .passenger span.detail>span:nth-of-type(1) {
+
+        padding-right: 5px;
+
+}
+
+
+
+.order .center .passenger span.btn {
+
+        text-align: right;
+
+        padding-right: 0.75rem;
+
+        font-size: 0.65rem;
+
+        float: right;
+
+}
+
+
+
+.order .center .passenger span.btn i {
+
+            display: inline-block;
+            
+                font-size: 1.1rem;
+                
+                font-style: normal;
+                
+                height: 2.35rem;
+                
+                line-height: 2.35rem;
+                
+                color: #49D3DD;
+                
+                border-radius: 0.15rem;
+                
+                text-align: center;
+                
+                position: relative;
+                
+                width: 100%;
+                
+                
+                
+                border: 1px solid #49D3DD;
+                        
+                        border-radius: 4px;
+}
+
+
+
+.order .center .passenger span.btn i::after {
+
+        content: '';
+
+        position: absolute;
+
+        right: 0;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+        
+
+        width: 8px;
+
+        height: 14px;
+
+        background-position: -622px -5px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.order .center .passengerList {
+
+        width: 100%;
+
+        float: left;
+
+        background-color: #fff;
+
+}
+
+
+
+.order .center .passengerList .row {
+
+        width: 100%;
+
+        /*height: 3rem;*/
+
+        border-bottom: 1px solid #f3f3f3;
+
+}
+
+
+
+.order .center .passengerList .btnRow {
+
+        font-size: 1.3rem;
+
+        color: #27adff;
+
+        height: 2.6rem;
+
+        border-bottom: 1px solid #f3f3f3;
+
+}
+
+
+
+.order .center .passengerList .row .column {
+
+        /*height: 2.95rem;*/
+
+        float: left;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(1) {
+
+        width: 20%;
+
+        /*height: 2.95rem;*/
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(1) span {
+
+        width: 1.2rem;
+
+        height: 1.2rem;
+
+        -webkit-border-radius: 100%;
+
+        -moz-border-radius: 100%;
+
+        border-radius: 100%;
+
+        border: 1px solid #ff7c7c;
+
+        background-color: #fff;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(1) span i {
+
+        width: 0.7rem;
+
+        height: 2px;
+
+        border-top: 1px solid #ff6d6d;
+
+        border-bottom: 1px solid #ffc5c5;
+
+        display: block;
+
+}
+
+
+
+.order .center .passengerList .btnRow .column {
+
+        width: 50% !important;
+
+        height: 2.6rem;
+
+        line-height: 2.6rem;
+
+        text-align: center;
+                color: #49D3DD;
+        float: left;
+
+}
+
+
+
+.order .center .passengerList .btnRow .column:nth-of-type(1) {
+                color: #49D3DD;
+        border-right: 1px solid #e9e9e9;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(2) {
+
+        width: 26%;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(3) {
+
+        width: 54%;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(2) p, .order .center .passengerList .row .column:nth-of-type(3) p {
+
+        width: 100%;
+
+        /*height: 0.75rem;
+
+        line-height: 0.75rem;*/
+
+        font-size: 1.2rem;
+
+        color: #343533;
+
+        text-align: left;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+
+        white-space: nowrap;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(2) p:nth-of-type(1), .order .center .passengerList .row .column:nth-of-type(3) p:nth-of-type(1) {
+
+        margin-top: 0.45rem;
+
+        margin-bottom: 0.55rem;
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(3) p:nth-of-type(1) span {
+
+        float: left;
+
+        font-size: 1rem;
+
+        border-radius: 0.1rem;
+
+       
+
+        color: #49D3DD;
+
+        padding: 0 0.15rem;
+
+        /*height: 0.75rem;
+
+        line-height: 0.65rem;*/
+
+}
+
+
+
+.order .center .passengerList .row .column:nth-of-type(2) p:nth-of-type(2), .order .center .passengerList .row .column:nth-of-type(3) p:nth-of-type(2) {
+
+        margin-bottom: 0.45rem;
+
+}
+
+
+
+.order .center .contact {
+
+        margin-top: 0.5rem;
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        float: left;
+
+        background-color: #fff;
+
+        border-top: 1px solid #ededed;
+
+        border-bottom: 1px solid #ededed;
+
+}
+
+
+
+.order .center .contact span {
+
+        width: 50%;
+
+        height: 100%;
+
+        float: left;
+
+        color: #999;
+
+        font-size: 1.3rem;
+
+}
+
+
+
+.order .center .contact span.title {
+
+        padding-left: 0.75rem;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .contact span.info {
+
+        /*width: 40%;*/
+
+        font-size: 1.3rem;
+
+        text-align: center;
+
+}
+
+
+
+.order .center .contact span.btn {
+
+        text-align: right;
+
+        padding-right: 0.75rem;
+
+        font-size: 0.65rem;
+
+        float: right;
+
+}
+
+
+
+.order .center .contact span.btn i {
+
+    display: inline-block;
+    
+    font-size: 1.1rem;
+    
+    font-style: normal;
+    
+    width: 46%;
+    
+    height: 2.35rem;
+    
+    line-height: 2.35rem;
+    
+    text-align: center;
+    
+    color: #49D3DD;
+    
+    
+    
+    position: relative;
+    border: 1px solid #49D3DD;
+    border-radius: 4px;
+
+}
+
+
+
+.order .center .contact span.btn i::after {
+
+        content: '';
+
+        position: absolute;
+
+        right: 0;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+      /*  background: url('http://112.74.171.99/hl/resources/train/images/trainIcons.png') no-repeat;*/
+
+        width: 8px;
+
+        height: 14px;
+
+        background-position: -622px -5px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.order .center .contactDetail {
+
+        width: 100%;
+
+        background-color: #fff;
+
+        float: left;
+
+}
+
+
+
+.order .center .contactDetail .row {
+
+        width: 100%;
+
+        height: 3rem;
+
+        border-bottom: 1px solid #ededed;
+
+        float: left;
+                
+                padding:0;
+
+}
+
+
+
+.order .center .contactDetail .row .column:nth-of-type(1) {
+
+        width: 30%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        padding-left: 0.75rem;
+
+        float: left;
+
+        text-align: left;
+
+        font-size: 1.3rem;
+
+        color: #999;
+
+}
+
+
+
+.order .center .contactDetail .row .column:nth-of-type(2) {
+
+        width: 70%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        float: left;
+
+        text-align: left;
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+
+        white-space: nowrap;
+
+}
+
+
+
+.order .center .setMealType {
+
+        width: 100%;
+
+        height: 3rem;
+
+        margin-top: 0.5rem;
+
+        background-color: #fff;
+
+        border-top: 1px solid #f1f1f1;
+
+        border-bottom: 1px solid #f1f1f1;
+
+        float: left;
+
+}
+
+
+
+.order .center .setMealType .row {
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        float: left;
+                
+                padding:0;
+
+}
+
+
+
+.order .center .setMealType .row .column:nth-of-type(1) {
+
+        width: 30%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        font-size: 1.3rem;
+
+        color: #999;
+
+        float: left;
+
+        padding-left: 0.75rem;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .setMealType .row .column:nth-of-type(2) {
+
+        width: 70%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        float: left;
+
+        padding-right: 0.75rem;
+
+        text-align: right;
+
+}
+
+
+
+.order .center .setMealInvoice {
+
+        width: 100%;
+
+        height: 3rem;
+
+        background-color: #fff;
+
+        border-bottom: 1px solid #f1f1f1;
+
+        float: left;
+
+        margin-bottom: 2.5rem;
+
+}
+
+
+
+.order .center .setMealInvoice .row {
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        float: left;
+                
+                padding: 0;
+
+}
+
+
+
+.order .center .setMealInvoice .row .column:nth-of-type(1) {
+
+        width: 30%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        font-size: 1.3rem;
+
+        color: #999;
+
+        float: left;
+
+        padding-left: 0.75rem;
+
+        text-align: left;
+
+}
+
+
+
+.order .center .setMealInvoice .row .column:nth-of-type(2) {
+
+        width: 70%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        float: left;
+
+        padding-right: 0.75rem;
+
+        text-align: right;
+
+}
+
+
+
+.order .center .setMealType .row .column:nth-of-type(2) span, .order .center .setMealInvoice .row .column:nth-of-type(2) span {
+
+        display: inline-block;
+
+        font-size: 1.3rem;
+
+        padding-right: 0.75rem;
+
+        height: auto;
+
+        /*line-height: normal;*/
+
+        position: relative;
+
+}
+
+
+
+.order .center .setMealType .row .column:nth-of-type(2) span::after, .order .center .setMealInvoice .row .column:nth-of-type(2) span::after {
+
+        content: '';
+
+        position: absolute;
+
+        right: 0rem;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+        background: url('http://112.74.171.99/hl/resources/train/images/trainIcons.png') no-repeat;
+
+        width: 8px;
+
+        height: 14px;
+
+        background-position: -622px -5px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.footorder {
+
+        /*position: fixed;*/
+
+        left: 0;
+
+        bottom: 0;
+
+        width: 100%;
+
+        /*height: 35px;*/
+
+        border-top: 1px solid #d3d8de;
+
+        background-color: #5b6b83;
+
+        z-index: 12;
+
+}
+
+
+
+.footorder>span {
+
+        height: 2.8rem;
+
+        line-height: 2.8rem;
+
+        float: left;
+
+        font-size: 1.3rem;
+
+}
+
+
+
+.footorder span.countMoney {
+
+        width: 53%;
+
+        padding-left: 0.75rem;
+
+        font-size: 1.3rem;
+
+        color: #fff;
+
+        text-align: left;
+
+}
+
+
+
+.footorder span.countMoney>i {
+
+        color: #FF6606;
+
+        font-style: normal;
+
+}
+
+
+
+.footorder span.countMoney>i>i {
+
+        font-size: 0.7em;
+
+        font-style: normal;
+
+}
+
+
+
+.footorder span.detail {
+
+        width: 15%;
+
+        text-align: center;
+
+        color: #fff;
+
+}
+
+
+
+.footorder span.detail i {
+
+        display: inline-block;
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -79px;
+
+        height: 17px;
+
+        padding-left: 12px;
+
+        -webkit-transform: rotate(90deg) scale(0.8) translateX(6px);
+
+        -moz-transform: rotate(90deg) scale(0.8) translateX(6px);
+
+        -ms-transform: rotate(90deg) scale(0.8) translateX(6px);
+
+        transform: rotate(90deg) scale(0.8) translateX(6px);
+
+        margin-left: 0.25rem;
+
+        transition: all 0.3s;
+
+}
+
+
+
+.footorder span.detail.up i {
+
+        -webkit-transform: rotate(270deg) scale(0.8) translateX(-4px);
+
+        -moz-transform: rotate(270deg) scale(0.8) translateX(-4px);
+
+        -ms-transform: rotate(270deg) scale(0.8) translateX(-4px);
+
+        transform: rotate(270deg) scale(0.8) translateX(-4px);
+
+}
+
+
+
+.footorder span.payBtn {
+
+        width: 30%;
+
+        float: right;
+
+        padding-right: 0.75rem;
+
+        text-align: left;
+
+}
+
+
+
+.footorder span.payBtn i {
+
+        width: 100%;
+
+        height: 2.8rem;
+
+        line-height: 2.8rem;
+
+        font-style: normal;
+
+        background-color: #ff6d6d;
+
+        font-size: 1.3rem;
+
+        color: #fff;
+
+        text-align: center;
+
+        display: inline-block;
+
+        border-radius: 0.1rem;
+
+        margin-top: 0.275rem;
+
+}
+
+.footorder a.tomaiby{
+        height:2.8rem;
+        line-height:2.8rem;
+        font-size:1.4rem;
+}
+
+
+.particularsMask {
+
+        position: fixed;
+
+        top: 0;
+
+        left: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: rgba(0, 0, 0, 0.7);
+
+        z-index: 11;
+
+        display: none;
+
+}
+
+
+
+.particularsMask .particulars {
+
+        position: absolute;
+
+        left: 0;
+
+        bottom: 84px;
+
+        width: 100%;
+
+        z-index: 1;
+
+        background-color: #fff;
+
+        border-top: 1px solid #e8e8e8;
+
+}
+
+
+
+.particularsMask .particulars .row {
+
+        width: 100%;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        padding: 0 0.75rem;
+
+        float: left;
+
+}
+
+
+
+.particularsMask .particulars .row:nth-of-type(2) {
+
+        height: 3rem;
+
+}
+
+
+
+.particularsMask .particulars .row:nth-of-type(2) .column {
+
+        border-bottom: 1px solid #efefef;
+
+}
+
+
+
+.particularsMask .particulars .row .column:nth-of-type(1) {
+
+        width: 40%;
+
+        float: left;
+
+        color: #34353a;
+
+        font-size: 1.3rem;
+
+        text-align: left;
+
+}
+
+
+
+.particularsMask .particulars .row .column:nth-of-type(2) {
+
+        width: 60%;
+
+        font-size: 1.3rem;
+
+        color: #535353;
+
+        float: right;
+
+        text-align: right;
+
+}
+
+
+
+.particularsMask .particulars .row .column:nth-of-type(2) span:nth-of-type(1) {
+
+        color: #ff6d6d;
+
+        margin-right: 0.15rem;
+
+}
+
+
+
+.particularsMask .particulars .row .column:nth-of-type(2) span:nth-of-type(1) i {
+
+        font-size: 0.7rem;
+
+        font-style: normal;
+
+}
+
+
+
+.particularsMask .particulars .row .column:nth-of-type(2) span:nth-of-type(2) {
+
+        margin-left: 0.15rem;
+
+}
+
+
+
+.particularsMask .particulars .row:nth-of-type(3) .column {
+
+        width: 100%;
+
+        color: #999;
+
+        font-size: 1.2rem;
+
+}
+
+
+
+.orderNotice .title, .passengerName .title {
+
+     /*   height: 2.4rem; */
+
+        /*line-height: 2.4rem;*/
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        padding: 0 0.75rem;
+
+}
+
+
+
+
+
+
+.orderNotice  p, .passengerName  p {
+
+        width: 100%;
+
+        border-bottom: 0;
+
+        color: #535353;
+
+        height: auto;
+
+ /*       line-height: 1rem; */
+
+        font-size: 1.2rem;
+                
+                color: #909090;
+
+        text-align: left;
+
+        margin: 0;
+                
+                padding:0 0.5rem;
+
+}
+
+
+
+.orderNotice  p.title {
+
+        margin: 0.5rem;
+
+}
+
+
+
+.orderNotice  p:nth-of-type(1) {
+
+        margin-top: 0.5rem;
+
+}
+
+
+
+
+.addPassenger{
+
+        width: 100%;
+
+        height: auto;
+
+        background-color: #f3f2f5;
+
+}
+
+
+
+.addPassenger .type {
+
+        height: 3.5rem;
+
+        width: 100%;
+
+        background-color: #fff;
+
+        border-bottom: 1px solid #f8f8f8;
+
+}
+
+
+
+.addPassenger .type .row {
+
+        width: 100%;
+
+        height: 3.2rem;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .type .row .column {
+
+        width: 50%;
+
+        height: 100%;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .type .row .column label {
+
+        width: 100%;
+
+        height: 100%;
+
+        font-size: 1.3rem;
+
+        color: #34353a;
+
+        position: relative;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .type .row .column input {
+
+        opacity: 0;
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+}
+
+
+
+.addPassenger .type .row .column i {
+
+        width: 21px;
+
+        height: 20px;
+
+        display: block;
+
+        margin-right: 0.25rem;
+
+        border: 1px solid #dbdbdb;
+
+        border-radius: 100%;
+
+}
+
+
+
+.addPassenger .type .row .column input:checked+i {
+
+        background: url(http://112.74.171.99/hl/resources/train/images/order-icons.png) no-repeat 0px 0px;
+
+        height: 20px;
+
+        padding-left: 21px;
+
+        border: 0px;
+
+}
+
+
+
+.addPassenger .passengerInfo {
+
+        width: 100%;
+
+        background-color: #fff;
+
+        margin-top: 0.5rem;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .passengerInfo .row {
+
+        padding: 0 0.75rem;
+
+        width: 100%;
+
+        height: 2.6rem;
+
+        border-bottom: 1px solid #ededed;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(4) {
+
+        display: none;
+
+}
+
+
+
+.addPassenger .passengerInfo .row .column {
+
+        height: 2.6rem;
+
+        line-height: 2.6rem;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .passengerInfo .row .column:nth-of-type(1) {
+
+        width: 30%;
+
+        font-size: 1.3rem;
+
+        color: #999;
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(1) .column:nth-of-type(1) i {
+
+        width: 1.3rem;
+
+        height: 1.3rem;
+
+        line-height: 1.1rem;
+
+        text-align: center;
+
+        border-radius: 100%;
+
+        border: 1px solid #50bcff;
+
+        font-style: normal;
+
+        font-size: 0.6rem;
+
+        font-weight: bold;
+
+        color: #50bcff;
+
+        margin-left: 0.5rem;
+
+        vertical-align: middle;
+
+        display: block;
+
+}
+
+
+
+.addPassenger .passengerInfo .row .column:nth-of-type(2) {
+
+        width: 70%;
+
+}
+
+
+
+.addPassenger .passengerInfo .row .column:nth-of-type(2) input {
+
+        border: 0;
+
+        width: 100%;
+
+        height: 2.3rem;
+
+        margin: 0.05rem 0;
+
+        font-size: 1.3rem;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(2) .column:nth-of-type(2) {
+
+        position: relative;
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(2) .column:nth-of-type(2) i {
+
+        position: absolute;
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -35px;
+
+        height: 14px;
+
+        padding-left: 10px;
+
+        float: right;
+
+        z-index: 1;
+
+        right: 0;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(2) .column:nth-of-type(2) select {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0.1rem;
+
+        width: 100%;
+
+        height: 2.3rem;
+
+        z-index: 2;
+
+        opacity: 0;
+
+        display: block;
+
+        font-size: 1.3rem;
+
+}
+
+
+
+.addPassenger .passengerInfo .row:nth-of-type(2) .column:nth-of-type(2) select>option:nth-of-type(1) {
+
+        display: none !important;
+
+}
+
+
+
+.addPassenger .prompt {
+
+        margin-top: 1.25rem;
+
+        width: 100%;
+
+        float: left;
+
+}
+
+
+
+.addPassenger .prompt p {
+
+        width: 100%;
+
+        padding: 0 0.75rem;
+
+        font-size: 1.2rem;
+
+  /*      line-height: 0.9rem; */
+
+        margin-bottom: 0.1rem;
+
+        color: #999;
+
+}
+
+
+
+.addPassenger .prompt p:nth-last-of-type(1) {
+
+        margin-bottom: 1rem;
+
+}
+
+
+
+.addPassenger .prompt p a {
+
+        color: #999;
+
+        text-decoration: none;
+
+}
+
+
+
+.addPassenger .prompt .title {
+
+        font-size: 0.75rem;
+
+        color: #34353a;
+
+        margin-bottom: 0.5rem;
+
+}
+
+
+
+.passenger .add span {
+
+        display: block;
+
+}
+
+
+
+.addContact {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: #f3f2f5;
+
+        z-index: 101;
+
+        display: none;
+
+        overflow-y: auto;
+
+}
+
+
+
+.addContact .head {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        z-index: 10;
+
+}
+
+
+
+.addContact .center {
+
+        width: 100%;
+
+        height: auto;
+
+        background-color: #f3f2f5;
+
+        margin-top: 2.2rem;
+
+        float: left;
+
+}
+
+
+
+.addContact .center .row {
+
+        padding: 0 0.75rem;
+
+        width: 100%;
+
+        height: 2.15rem;
+
+        border-bottom: 1px solid #ededed;
+
+        background-color: #fff;
+
+        float: left;
+
+}
+
+
+
+.addContact .center .row:nth-of-type(1) {
+
+        margin-top: 0.5rem;
+
+}
+
+
+
+.addContact .center .row .column {
+
+        height: 2.1rem;
+
+        float: left;
+
+        text-align: left;
+
+}
+
+
+
+.addContact .center .row .column:nth-of-type(1) {
+
+        width: 30%;
+
+        font-size: 0.6825rem;
+
+        color: #999;
+
+}
+
+
+
+.addContact .center .row .column:nth-of-type(2) {
+
+        width: 70%;
+
+        font-size: 0.75rem;
+
+}
+
+
+
+.addContact .center .row .column:nth-of-type(2) input {
+
+        border: 0;
+
+        width: 100%;
+
+        height: 2rem;
+
+        margin: 0.05rem 0;
+
+        float: left;
+
+        font-size: 0.64rem;
+
+}
+
+
+
+/*.chooseSetMeal {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        width: 100%;
+
+        height: 100%;
+
+        background-color: #f6f6f6;
+
+        z-index: 100;
+
+        display: none;
+
+        overflow-y: auto;
+
+}
+
+
+
+.chooseSetMeal .head {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        z-index: 10;
+
+}
+*/
+
+
+.chooseSetMeal {
+
+
+
+        width: 100%;
+
+        height: auto;
+
+        float: left;
+
+        background-color: #f6f6f6;
+
+}
+
+
+
+.chooseSetMeal p.prompt {
+
+        font-size: 1.2rem;
+
+        color: #FC5A5A;
+
+        padding: 0 0.75rem;
+
+        width: 100%;
+
+        margin-top: 0.9rem;
+
+        margin-bottom: 1rem;
+
+        float: left;
+
+}
+
+
+
+.chooseSetMeal .row {
+
+        width: 100%;
+
+        background-color: #fff;
+
+        height: 6rem;
+
+        border-bottom: 1px solid #e5e5e5;
+
+        margin-bottom: 0.05rem;
+
+        float: left;
+        padding: 0px;
+
+}
+
+
+
+.chooseSetMeal .row:last-of-type {
+
+        height: 3.6rem;
+
+}
+
+
+
+.chooseSetMeal .row:first-of-type {
+
+        border-top: 1px solid #e5e5e5;
+
+        margin-top: 0.5rem;
+
+}
+
+
+
+.chooseSetMeal .row:only-of-type {
+
+        height: auto;
+
+}
+
+
+
+.chooseSetMeal .row .column {
+
+        height: 100%;
+
+        float: left; 
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(1) {
+
+        width: 80%;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(1) p.title {
+
+        color: #343533;
+
+        font-size: 1.3rem;
+
+        height: 1.5rem;
+
+        line-height: 1.5rem;
+
+        margin: 0.75rem 0 0.5rem 0.75rem;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(1) ul {
+
+        width: 100%;
+
+        float: left;
+
+        padding: 0 0.75rem;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(1) ul li {
+
+        width: 100%;
+
+        font-size: 1.2rem;
+
+        /*  height: 0.9rem;
+
+        line-height: 0.9rem; */
+
+        color: #999;
+
+        float: left;
+
+        text-overflow: ellipsis;
+
+        overflow: hidden;
+
+        white-space: nowrap;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(1) ul li:last-of-type {
+
+        margin-bottom: 0.5rem;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(2) {
+
+        width: 20%;
+        margin-top: 20px;
+        position: relative;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(2) input[type="checkbox"] {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        opacity: 0;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(2) i {
+
+        display: block;
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -278px;
+
+        height: 20px;
+
+        padding-left: 22px;
+
+}
+
+
+
+.chooseSetMeal .row .column:nth-of-type(2) input[type="checkbox"]:checked+i {
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -240px;
+
+        height: 19px;
+
+        padding-left: 22px;
+
+}
+
+
+
+.chooseSetMeal .confirmBtn {
+
+        width: 90%;
+
+        height: 4rem;
+
+        line-height: 4rem;
+
+        text-align: center;
+
+        font-size: 1.5rem;
+
+        color: #fff;
+
+        margin-left: 5%;
+
+        border-radius: 0.15rem;
+
+        background-color: #FF9514;
+
+        float: left;
+
+}
+
+
+
+
+
+.isNeedInvoice {
+
+
+        width: 100%;
+
+        height: auto;
+
+        float: left;
+
+        background-color: #f6f6f6;
+
+}
+
+
+
+.isNeedInvoice .choose {
+
+        width: 100%;
+
+        margin: 0.5rem 0;
+
+        float: left;
+
+}
+
+
+
+.isNeedInvoice .choose .rows {
+
+        width: 100%;
+
+        background-color: #fff;
+
+        height: 3rem;
+
+        border-bottom: 1px solid #e5e5e5;
+
+        margin-bottom: 0.05rem;
+
+        float: left;
+
+}
+
+
+
+.isNeedInvoice .choose .rows:first-of-type {
+
+        border-top: 1px solid #e5e5e5;
+
+}
+
+
+
+.isNeedInvoice .choose .rows .column {
+
+        height: 100%;
+
+        float: left;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(1) {
+
+        width: 80%;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(1) span {
+
+        display: inline-block;
+
+        height: 3rem;
+
+        line-height: 3rem;
+
+        font-size: 1.3rem;
+
+        color: #343533;
+
+        margin-left: 0.75rem;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(2) {
+
+        width: 20%;
+
+        position: relative;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(2) input[type="radio"] {
+
+        position: absolute;
+
+        left: 0;
+
+        top: 0;
+
+        opacity: 0;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(2) i {
+
+        display: block;
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -278px;
+
+        height: 20px;
+
+        padding-left: 22px;
+
+}
+
+
+
+.isNeedInvoice .choose .column:nth-of-type(2) input[type="radio"]:checked+i {
+
+        background: url(http://112.74.171.99/hl/resources/train/images/icons.png) no-repeat 0px -240px;
+
+        height: 19px;
+
+        padding-left: 22px;
+
+}
+
+
+
+.isNeedInvoice .address {
+
+        width: 100%;
+
+        height: auto;
+
+        float: left;
+
+        background-color: #fff;
+
+}
+
+
+
+.isNeedInvoice .address .row {
+
+        width: 100%;
+
+        padding: 0 0.75rem;
+
+        float: left;
+
+        overflow: hidden;
+
+}
+
+
+
+.isNeedInvoice .address .row:first-of-type {
+
+        border-top: 1px solid #e3e3e3;
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type {
+
+        border-bottom: 1px solid #e3e3e3;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(1) {
+
+        width: 100%;
+
+        float: left;
+
+        border-bottom: 1px solid #e0e0e0;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(1) span {
+
+        font-size: 0.7825rem;
+
+        color: #343533;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(2) span {
+
+        color: #ff6d6d;
+
+        font-size: 0.7825rem;
+
+        white-space: nowrap;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+
+        width: 100%;
+
+        display: block;
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type .column:nth-of-type(2) span {
+
+        white-space: normal;
+
+        word-break: break-all;
+
+        line-height: 1rem;
+
+        height: auto;
+
+        overflow: auto;
+
+        text-overflow: inherit;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(2) span i {
+
+        font-size: 0.7rem;
+
+        font-style: normal;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(2) input, .isNeedInvoice .address .row .column:nth-of-type(2) textarea {
+
+        width: 100%;
+
+        height: 2.25rem;
+
+        border: 0px;
+
+        margin: 0.05rem 0;
+
+        font-size: 0.8rem;
+
+        display: block;
+
+        color: #34353a;
+
+}
+
+
+
+.isNeedInvoice .address .row .column:nth-of-type(2) textarea {
+
+        resize: none;
+
+        line-height: 1rem;
+
+        font-size: 0.8rem;
+
+        height: 3rem;
+
+        border: 0px;
+
+        margin: 0.05rem 0;
+
+        color: #34353a;
+
+        display: block;
+
+}
+
+
+
+.isNeedInvoice .address .row .column {
+
+        width: 100%;
+
+        min-height: 2.3rem;
+
+        position: relative;
+
+}
+
+
+
+.isNeedInvoice .address .row .column span:nth-of-type(1) {
+
+        width: 30%;
+
+        min-width: 30%;
+
+        display: block;
+
+        -webkit-flex: none;
+
+        -moz-flex: none;
+
+        flex: none;
+
+}
+
+
+
+.isNeedInvoice .address .row:nth-of-type(1) .column span:nth-of-type(2) {
+
+        white-space: nowrap;
+
+}
+
+
+
+.isNeedInvoice .address .row .column span:nth-of-type(2) {
+
+        width: 70%;
+
+        display: block;
+
+        word-break: break-all;
+
+        -webkit-flex: 1;
+
+        -moz-flex: 1;
+
+        flex: 1;
+
+        padding-right: 0.75rem;
+
+}
+
+
+
+.isNeedInvoice .address .row:nth-of-type(5) .column::after {
+
+        content: '';
+
+        position: absolute;
+
+        right: 0;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+        background: url('http://112.74.171.99/hl/resources/train/images/trainIcons.png') no-repeat;
+
+        width: 8px;
+
+        height: 14px;
+
+        background-position: -622px -5px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type .column {
+
+        border-bottom: 0;
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type .column:nth-of-type(2) {
+
+        position: relative;
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type .column:nth-of-type(2) span {
+
+        position: relative;
+
+        padding-right: 0.6rem;
+
+}
+
+
+
+.isNeedInvoice .address .row:last-of-type .column:nth-of-type(2)::after {
+
+        content: '';
+
+        position: absolute;
+
+        right: 0;
+
+        top: 50%;
+
+        margin-top: -7px;
+
+        background: url('http://112.74.171.99/hl/resources/train/images/trainIcons.png') no-repeat;
+
+        width: 8px;
+
+        height: 14px;
+
+        background-position: -622px -5px;
+
+        -webkit-transform: rotate(180deg);
+
+        -moz-transform: rotate(180deg);
+
+        -ms-transform: rotate(180deg);
+
+        transform: rotate(180deg);
+
+}
+
+
+
+.isNeedInvoice .remark {
+
+        width: 100%;
+
+        float: left;
+
+        padding: 0 0.75rem;
+
+        margin-top: 0.5rem;
+
+}
+
+
+
+.isNeedInvoice .remark p {
+
+        font-size: 0.64rem;
+
+        color: #999;
+
+        line-height: 1.2rem;
+
+}
+
+
+
+.isNeedInvoice .confirmBtn {
+
+    width: 90%;
+    
+    height: 4rem;
+    
+    line-height: 4rem;
+    
+    text-align: center;
+    
+    font-size: 1.5rem;
+    
+    color: #fff;
+    
+    margin-left: 5%;
+    
+    margin-top: 1rem;
+    
+    border-radius: 0.15rem;
+    
+    background-color: #FF9514;
+    
+    float: left;
+    
+    margin-bottom: 1rem;
+
+}
+
+
+/*
+.msgBox_tisomeBox div {
+
+        top: 50%;
+
+        left: 10%;
+
+}
+
+
+
+.msgBox_txt {
+
+        white-space: normal;
+
+        word-break: break-all;
+
+        width: 100%;
+
+        line-height: 1.2rem;
+
+}
+
+
+
+.tisomeBox {
+
+        z-index: 9999;
+
+}
+
+
+
+.tismbox {
+
+        margin-left: 0;
+
+        left: 10%;
+
+        top: 50%;
+
+        margin-top: -3.15rem;
+
+}
+
+
+
+.tismbox p, .tismbox a {
+
+        font-size: 0.8rem;
+
+        padding: 0.5rem;
+
+}
+*/

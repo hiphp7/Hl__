@@ -1,0 +1,73 @@
+﻿{
+    "code": "0",
+    "item": [
+        {
+            "id": "162",
+            "mid": "132",
+            "name": "高晓凯",
+            "identityTypeId": "1",
+            "identityType": "身份证",
+            "identityNo": "41048219900520113X",
+            "birthday": "1990-05-20",
+            "Gender": "男",
+            "Phone": "",
+            "Audit": "1",
+            "type": "0",
+            "isChild": "0",
+            "chk": false,
+            "isNew": false,
+            "sortId": "0"
+        },
+        {
+            "id": "203",
+            "mid": "132",
+            "name": "侯金良",
+            "identityTypeId": "1",
+            "identityType": "身份证",
+            "identityNo": "450421199112081078",
+            "birthday": "1991-12-08",
+            "Gender": "男",
+            "Phone": "",
+            "Audit": "1",
+            "type": "0",
+            "isChild": "0",
+            "chk": false,
+            "isNew": false,
+            "sortId": "0"
+        },
+        {
+            "id": "208",
+            "mid": "132",
+            "name": "周新易",
+            "identityTypeId": "1",
+            "identityType": "身份证",
+            "identityNo": "500116201408120010",
+            "birthday": "2014-08-12",
+            "Gender": "男",
+            "Phone": "",
+            "Audit": "0",
+            "type": 1,
+            "isChild": "1",
+            "chk": false,
+            "isNew": false,
+            "sortId": "0"
+        },
+        {
+            "id": "209",
+            "mid": "132",
+            "name": "李恩贝",
+            "identityTypeId": "1",
+            "identityType": "身份证",
+            "identityNo": "510184201108240166",
+            "birthday": "2011-08-24",
+            "Gender": "男",
+            "Phone": "",
+            "Audit": "1",
+            "type": 1,
+            "isChild": "1",
+            "chk": false,
+            "isNew": false,
+            "sortId": "0"
+        }
+    ]
+}

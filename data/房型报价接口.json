@@ -1,0 +1,612 @@
+{
+  "code": 0,
+  "result": {
+    "hotels": [
+      {
+        "hotelId": "125837",
+        "bookingRules": [
+          {
+            "startDate": 0,
+            "endDate": 253402185600000,
+            "startHour": "06:00:00",
+            "endHour": "30:00:00",
+            "weekSet": "0,1,2,3,4,5,6",
+            "minAmount": 1,
+            "maxAmount": 100,
+            "minDays": 1,
+            "maxDays": 28,
+            "minAdvHours": 0,
+            "maxAdvHours": 2136,
+            "arrivalStartTime": "14:00:00",
+            "arrivalEndTime": "28:40:00",
+            "serviceStartTime": "08:00:00",
+            "serviceEndTime": "21:40:00",
+            "bookingNotices": [
+              {
+                "message": "永远显示的温馨提醒"
+              }
+            ],
+            "bookingRuleId": "BR-58360"
+          },
+          {
+            "startDate": 0,
+            "endDate": 253402185600000,
+            "startHour": "06:00:00",
+            "endHour": "30:00:00",
+            "weekSet": "0,1,2,3,4,5,6",
+            "minAmount": 1,
+            "maxAmount": 100,
+            "minDays": 1,
+            "maxDays": 28,
+            "minAdvHours": 0,
+            "maxAdvHours": 2136,
+            "arrivalStartTime": "14:00:00",
+            "arrivalEndTime": "29:40:00",
+            "serviceStartTime": "06:00:00",
+            "serviceEndTime": "29:40:00",
+            "bookingNotices": [
+              {
+                "message": "温馨提醒，附近装修"
+              },
+              {
+                "startDate": 1446307200000,
+                "endDate": 1448812800000,
+                "message": "11月才展示"
+              }
+            ],
+            "bookingRuleId": "BR-58335"
+          }
+        ],
+        "guaranteeRules": [
+          {
+            "guaranteeRuleId": "GR-58360",
+            "dailyGuaranteeRules": [
+              {
+                "ruleDate": 1448985600000,
+                "guaranteeType": "OVER_TIME_OR_AMOUNT",
+                "guaranteeMoney": "FirstNightCost",
+                "overArriveTime": "18:00:00",
+                "overRoomAmount": 3,
+                "cancelRule": "BEFORE_RELATIVE_TIME",
+                "advanceDay": 2,
+                "advanceHour": "18:00:00"
+              },
+              {
+                "ruleDate": 1449072000000,
+                "guaranteeType": "OVER_TIME_OR_AMOUNT",
+                "guaranteeMoney": "FirstNightCost",
+                "overArriveTime": "18:00:00",
+                "overRoomAmount": 3,
+                "cancelRule": "BEFORE_RELATIVE_TIME",
+                "advanceDay": 2,
+                "advanceHour": "18:00:00"
+              }
+            ]
+          }
+        ],
+        "valueAdds": [
+          {
+            "typeCode": "01",
+            "amount": 2,
+            "isExtAdd": false,
+            "startDate": 1449072000000,
+            "endDate": 1449072000000,
+            "valueAddId": "V-BREAKFAST-20825421101"
+          }
+        ],
+        "refundRules": [
+          {
+            "refundRuleId": "R-90000614",
+            "refundRuleDetails": [
+              {
+                "refundRuleType": "NO_REFUND",
+                "startDate": 1448899200000,
+                "endDate": 1448985600000
+              },
+              {
+                "refundRuleType": "NO_REFUND",
+                "startDate": 1449072000000,
+                "endDate": 1449072000000
+              }
+            ]
+          },
+          {
+            "refundRuleId": "R-90000658",
+            "refundRuleDetails": [
+              {
+                "refundRuleType": "CAN_REFUND",
+                "timeLimitAndCosts": [
+                  {
+                    "relativeDateType": "CHECK_IN",
+                    "relativeMinute": 1439,
+                    "deductBaseType": "FULL_NIGHT_PRICE",
+                    "deductPercent": 0
+                  }
+                ],
+                "startDate": 1448899200000,
+                "endDate": 1456588800000
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "roomTypeId": "90000240",
+            "name": "OTA供应商的房型",
+            "ratePlans": [
+              {
+                "ratePlanId": 58314,
+                "productName": "含早",
+                "productRoomName": "OTA供应商的房型",
+                "productGroup": 2,
+                "paymentType": "Prepay",
+                "status": true,
+                "customerTypes": [
+                  "FOREIGNER"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 120,
+                    "salePrice": 120,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 20,
+                    "availableRooms": 97,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 97
+                  },
+                  {
+                    "cost": 120,
+                    "salePrice": 120,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 20,
+                    "availableRooms": 100,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 100
+                  }
+                ],
+                "bookingRuleIds": "BR-58314",
+                "refundRuleId": "R-90000614",
+                "valueAddIds": "V-BREAKFAST-20825421001,V-BREAKFAST-20825421101",
+                "giftIds": "82f797597cab9c90894124c9796f8c38,cf6f0e8960969bb9e84e1d74a6abe762",
+                "forceGuarantee": false,
+                "broadnet": "部分有且部分收费",
+                "bedType": "DOUBLE",
+                "maxCustomers": 5,
+                "wifi": "免费",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              },
+              {
+                "ratePlanId": 58360,
+                "productName": "DD现付",
+                "productRoomName": "OTA供应商的房型",
+                "productGroup": 3,
+                "paymentType": "SelfPay",
+                "status": true,
+                "customerTypes": [
+                  "DOMESTIC"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 20,
+                    "availableRooms": 97,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 97
+                  },
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 20,
+                    "availableRooms": 100,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 100
+                  }
+                ],
+                "bookingRuleIds": "BR-58360",
+                "guaranteeRuleId": "GR-58360",
+                "valueAddIds": "V-BROADBAND-0,V-WIFI-1,V-BREAKFAST-00825421001,V-BREAKFAST-00825421101",
+                "giftIds": "82f797597cab9c90894124c9796f8c38,cf6f0e8960969bb9e84e1d74a6abe762",
+                "forceGuarantee": false,
+                "broadnet": "部分有且部分收费",
+                "bedType": "DOUBLE",
+                "maxCustomers": 5,
+                "wifi": "免费",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              }
+            ]
+          },
+          {
+            "roomTypeId": "90000255",
+            "name": "测试非买断房",
+            "ratePlans": [
+              {
+                "ratePlanId": 58334,
+                "productName": "预付",
+                "productRoomName": "测试非买断房",
+                "productGroup": 101,
+                "paymentType": "Prepay",
+                "status": true,
+                "customerTypes": [
+                  "DOMESTIC"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 0,
+                    "availableRooms": 6,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 6
+                  },
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 0,
+                    "availableRooms": 6,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 6
+                  }
+                ],
+                "bookingRuleIds": "BR-58334",
+                "refundRuleId": "R-90000658",
+                "valueAddIds": "V-BREAKFAST-00825421001,V-BREAKFAST-00825421101",
+                "giftIds": "5dc94d8759ef10b8f48c50ad33f0cf91",
+                "forceGuarantee": true,
+                "broadnet": "无",
+                "bedType": "DOUBLE",
+                "maxCustomers": 0,
+                "wifi": "无",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              }
+            ]
+          }
+        ],
+        "gifts": [
+          {
+            "description": "这是一个测试礼包",
+            "validType": "VALID_CHECK_IN",
+            "startDate": 1449072000000,
+            "endDate": 1449072000000,
+            "name": "测试礼包",
+            "giftId": "82f797597cab9c90894124c9796f8c38"
+          }
+        ]
+      },
+	  {
+        "hotelId": "125837",
+        "bookingRules": [
+          {
+            "startDate": 0,
+            "endDate": 253402185600000,
+            "startHour": "06:00:00",
+            "endHour": "30:00:00",
+            "weekSet": "0,1,2,3,4,5,6",
+            "minAmount": 1,
+            "maxAmount": 100,
+            "minDays": 1,
+            "maxDays": 28,
+            "minAdvHours": 0,
+            "maxAdvHours": 2136,
+            "arrivalStartTime": "14:00:00",
+            "arrivalEndTime": "28:40:00",
+            "serviceStartTime": "08:00:00",
+            "serviceEndTime": "21:40:00",
+            "bookingNotices": [
+              {
+                "message": "永远显示的温馨提醒"
+              }
+            ],
+            "bookingRuleId": "BR-58360"
+          },
+          {
+            "startDate": 0,
+            "endDate": 253402185600000,
+            "startHour": "06:00:00",
+            "endHour": "30:00:00",
+            "weekSet": "0,1,2,3,4,5,6",
+            "minAmount": 1,
+            "maxAmount": 100,
+            "minDays": 1,
+            "maxDays": 28,
+            "minAdvHours": 0,
+            "maxAdvHours": 2136,
+            "arrivalStartTime": "14:00:00",
+            "arrivalEndTime": "29:40:00",
+            "serviceStartTime": "06:00:00",
+            "serviceEndTime": "29:40:00",
+            "bookingNotices": [
+              {
+                "message": "温馨提醒，附近装修"
+              },
+              {
+                "startDate": 1446307200000,
+                "endDate": 1448812800000,
+                "message": "11月才展示"
+              }
+            ],
+            "bookingRuleId": "BR-58335"
+          }
+        ],
+        "guaranteeRules": [
+          {
+            "guaranteeRuleId": "GR-58360",
+            "dailyGuaranteeRules": [
+              {
+                "ruleDate": 1448985600000,
+                "guaranteeType": "OVER_TIME_OR_AMOUNT",
+                "guaranteeMoney": "FirstNightCost",
+                "overArriveTime": "18:00:00",
+                "overRoomAmount": 3,
+                "cancelRule": "BEFORE_RELATIVE_TIME",
+                "advanceDay": 2,
+                "advanceHour": "18:00:00"
+              },
+              {
+                "ruleDate": 1449072000000,
+                "guaranteeType": "OVER_TIME_OR_AMOUNT",
+                "guaranteeMoney": "FirstNightCost",
+                "overArriveTime": "18:00:00",
+                "overRoomAmount": 3,
+                "cancelRule": "BEFORE_RELATIVE_TIME",
+                "advanceDay": 2,
+                "advanceHour": "18:00:00"
+              }
+            ]
+          }
+        ],
+        "valueAdds": [
+          {
+            "typeCode": "01",
+            "amount": 2,
+            "isExtAdd": false,
+            "startDate": 1449072000000,
+            "endDate": 1449072000000,
+            "valueAddId": "V-BREAKFAST-20825421101"
+          }
+        ],
+        "refundRules": [
+          {
+            "refundRuleId": "R-90000614",
+            "refundRuleDetails": [
+              {
+                "refundRuleType": "NO_REFUND",
+                "startDate": 1448899200000,
+                "endDate": 1448985600000
+              },
+              {
+                "refundRuleType": "NO_REFUND",
+                "startDate": 1449072000000,
+                "endDate": 1449072000000
+              }
+            ]
+          },
+          {
+            "refundRuleId": "R-90000658",
+            "refundRuleDetails": [
+              {
+                "refundRuleType": "CAN_REFUND",
+                "timeLimitAndCosts": [
+                  {
+                    "relativeDateType": "CHECK_IN",
+                    "relativeMinute": 1439,
+                    "deductBaseType": "FULL_NIGHT_PRICE",
+                    "deductPercent": 0
+                  }
+                ],
+                "startDate": 1448899200000,
+                "endDate": 1456588800000
+              }
+            ]
+          }
+        ],
+        "rooms": [
+          {
+            "roomTypeId": "90000240",
+            "name": "OTA供应商的房型",
+            "ratePlans": [
+              {
+                "ratePlanId": 58314,
+                "productName": "含早",
+                "productRoomName": "OTA供应商的房型",
+                "productGroup": 2,
+                "paymentType": "Prepay",
+                "status": true,
+                "customerTypes": [
+                  "FOREIGNER"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 120,
+                    "salePrice": 120,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 20,
+                    "availableRooms": 97,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 97
+                  },
+                  {
+                    "cost": 120,
+                    "salePrice": 120,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 20,
+                    "availableRooms": 100,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 100
+                  }
+                ],
+                "bookingRuleIds": "BR-58314",
+                "refundRuleId": "R-90000614",
+                "valueAddIds": "V-BREAKFAST-20825421001,V-BREAKFAST-20825421101",
+                "giftIds": "82f797597cab9c90894124c9796f8c38,cf6f0e8960969bb9e84e1d74a6abe762",
+                "forceGuarantee": false,
+                "broadnet": "部分有且部分收费",
+                "bedType": "DOUBLE",
+                "maxCustomers": 5,
+                "wifi": "免费",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              },
+              {
+                "ratePlanId": 58360,
+                "productName": "DD现付",
+                "productRoomName": "OTA供应商的房型",
+                "productGroup": 3,
+                "paymentType": "SelfPay",
+                "status": true,
+                "customerTypes": [
+                  "DOMESTIC"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 20,
+                    "availableRooms": 97,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 97
+                  },
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 20,
+                    "availableRooms": 100,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 100
+                  }
+                ],
+                "bookingRuleIds": "BR-58360",
+                "guaranteeRuleId": "GR-58360",
+                "valueAddIds": "V-BROADBAND-0,V-WIFI-1,V-BREAKFAST-00825421001,V-BREAKFAST-00825421101",
+                "giftIds": "82f797597cab9c90894124c9796f8c38,cf6f0e8960969bb9e84e1d74a6abe762",
+                "forceGuarantee": false,
+                "broadnet": "部分有且部分收费",
+                "bedType": "DOUBLE",
+                "maxCustomers": 5,
+                "wifi": "免费",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              }
+            ]
+          },
+          {
+            "roomTypeId": "90000255",
+            "name": "测试非买断房",
+            "ratePlans": [
+              {
+                "ratePlanId": 58334,
+                "productName": "预付",
+                "productRoomName": "测试非买断房",
+                "productGroup": 101,
+                "paymentType": "Prepay",
+                "status": true,
+                "customerTypes": [
+                  "DOMESTIC"
+                ],
+                "instantConfirmation": true,
+                "currencyCode": "RMB",
+                "nightlyRates": [
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1448985600000,
+                    "commission": 0,
+                    "availableRooms": 6,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 6
+                  },
+                  {
+                    "cost": 100,
+                    "salePrice": 100,
+                    "status": true,
+                    "date": 1449072000000,
+                    "commission": 0,
+                    "availableRooms": 6,
+                    "instantConfirmation": true,
+                    "instantConfirmCount": 6
+                  }
+                ],
+                "bookingRuleIds": "BR-58334",
+                "refundRuleId": "R-90000658",
+                "valueAddIds": "V-BREAKFAST-00825421001,V-BREAKFAST-00825421101",
+                "giftIds": "5dc94d8759ef10b8f48c50ad33f0cf91",
+                "forceGuarantee": true,
+                "broadnet": "无",
+                "bedType": "DOUBLE",
+                "maxCustomers": 0,
+                "wifi": "无",
+                "saleUnit": "PER_ROOM",
+                "bizType": "Common",
+                "memberCategory": [
+                  "ANY"
+                ],
+                "isAbroadPrice": false
+              }
+            ]
+          }
+        ],
+        "gifts": [
+          {
+            "description": "这是一个测试礼包",
+            "validType": "VALID_CHECK_IN",
+            "startDate": 1449072000000,
+            "endDate": 1449072000000,
+            "name": "测试礼包",
+            "giftId": "82f797597cab9c90894124c9796f8c38"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "3.1.0"
+}

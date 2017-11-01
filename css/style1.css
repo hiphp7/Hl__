@@ -1,0 +1,553 @@
+
+/***************** main start ********************/
+.clear{
+	clear:both;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.main-title{
+	height: 100%;
+	width:auto;
+}
+.main-content{
+	background:#f6f6f6
+}
+/*图片轮播样式*/
+.main-content .banner img{
+	width: 100%;
+	display: block;
+}
+/*下方显示小圆点的样式*/
+.slider-pager{
+	bottom:0
+}
+.slider-pager .slider-pager-page{
+	font-size: 12px;
+	color: white;
+}
+.typeChooseBox{
+	display:-webkit-flex;
+	background:white;
+}
+.typeChooseBox div{
+	flex:1;
+	box-sizing:border-box;
+	border-bottom:1px solid #e4e4e4;
+}
+.typeChooseBox div p{
+	text-align: center;
+	font: 16px/16px "微软雅黑";
+	padding:12px 0;
+	color:#888;
+	margin:0;
+	box-sizing:border-box;
+}
+.typeChooseBox div p span{
+	display:inline-block;
+	width:100%;
+	line-height:18px;
+	
+}
+.typeChooseBox div.active p{
+	color:#289deb;
+	
+}
+.typeChooseBox div p:nth-of-type(1) span{
+	border-right:1px solid #e4e4e4;
+	
+}
+.typeChooseBox div.active{
+	border-bottom: 2px solid #289deb;
+}
+
+.placeSection{
+	padding-bottom:14px;
+	border-bottom:1px solid #e4e4e4;
+	background:white;
+}
+
+
+.placeBox{
+	padding:12px 18px 1px 18px;
+	position: relative;
+	background:white;
+}
+.placeBox .f1{
+	width:48%;
+	text-indent: 5px;
+}
+.placeBox .f1 p{
+	margin:0;
+}
+.placeBox .f1 h2{
+	margin:0;
+	padding:0;
+	font-size:26px;
+	color: #1f1f1f;
+	font-family: "微软雅黑";
+}
+.placeBox .f1.endBox{
+	text-align: right;
+}
+.placeBox .f1 p span{
+	font-family: "微软雅黑";
+	font-size:16px;
+	color:#908f97;
+	position:relative;
+	top:-6px;
+}
+.placeBox .f1 p img{
+	width:25px;
+	line-height: 25px;
+	margin-right:3px;
+}
+.placeBox .changeLog{
+	width:10%;
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+}
+.placeBox .changeLog img{
+	width:100%;
+	transition:all 0.3s ease-in;
+}
+
+.placeBox .changeLog img.imgRotate{
+	transform:rotate(360deg);
+}
+.placeBox.dataBox{
+	padding-bottom:10px;
+	border-bottom: 1px solid #e4e4e4;
+	background:white;
+}
+
+#USER_AGE{
+	background-color: white;
+	font-size:16px;
+	font-weight:bolder;
+}
+
+.btnBox{
+	padding:15px 10px;
+}
+.myAction{
+	border-radius:4px;
+	
+}
+footer .footerBox{
+	width:50%;
+	text-align:center;
+}
+footer .footerBox img{
+	width:40px;
+	height:40px;
+	margin-bottom:10px;
+}
+footer .footerBox span{
+	position:relative;
+	top:-25px;
+	font-size:14px;
+	font-family: "微软雅黑";
+}
+.company{
+	margin-top:20px;
+	text-align: center;
+	
+}
+.company img{
+	height:21px;
+}
+
+
+
+.prodetailContent .proItem{
+	display: -webkit-flex;
+	
+}
+.prodetailContent .proItem > div:nth-of-type(1){
+	flex:3;
+}
+.prodetailContent .proItem > div:nth-of-type(2){
+	flex:1;
+}
+.prodetailContent .proItem .infoBox span{
+	width:40%;
+}
+.prodetailContent .proItem .infoBox span p{
+	margin-bottom:10px;
+	color:#999;
+}
+.prodetailContent .proItem .infoBox span p:nth-of-type(1){
+	font-size: 18px;
+	color:#181818;
+	font-family: "微软雅黑";
+}
+.prodetailContent .proItem .infoBox span:nth-of-type(2){
+	width:20%;
+	position:relative;
+	left:-7%;
+}
+.prodetailContent .proItem .infoBox span:nth-of-type(2) img{
+	width:100%;
+}
+
+.prodetailContent .proItem .infoBox > p{
+	color:#999;
+}
+.prodetailContent .proItem .infoBox > p img{
+	width:23px;
+	height:23px;
+}
+.prodetailContent .proItem .infoBox > p i{
+	position:relative;
+	top:-5px;
+}
+.prodetailContent .proItem .priceBox{
+	text-align:right;
+}
+.prodetailContent .proItem .priceBox p{
+	margin-bottom:10px;
+	color:#999;
+}
+
+.prodetailContent .proItem .priceBox p:nth-of-type(1) i{
+	
+	color:#ff6d6d;
+}
+.prodetailContent .proItem .priceBox p:nth-of-type(1) i.price{
+	font-size:18px;
+	margin-left:3px;
+}
+/***************** main end ********************/
+
+
+
+/***************** custom start ********************/
+.custom-content{
+	background: #f6f6f6;
+    
+    color: #34353a;
+}
+.custom-content .bannerBox img{
+	width:100%;
+}
+.custom-content .telItem span{
+	position: relative;
+	top:8px;
+}
+.custom-content .telBtn.button{
+	
+   min-height: 30px;
+   
+    line-height: 30px;
+ 
+	
+}
+
+.custom-content .onlineBox{
+	margin-top:10px;
+	background:white;
+}
+.custom-content .onlineBox ion-item{
+	border-bottom: none;
+}
+.erWei .erWeiBox{
+	width:50%;
+	text-align: center;
+}
+.erWei .erWeiBox img{
+	display:inline-block;
+	width:70%;
+	margin-bottom:10px;
+}
+.erWei .erWeiBox p{
+	font-size:14px;
+	
+}
+.custom-content .problem{
+	margin-top:10px;
+	margin-bottom:10px;
+	
+}
+
+.custom-content .problem .proTitle{
+    border-color: #ddd;
+    background-color: #fff;
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: -1px;
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+}
+.custom-content .problem .liBox li{
+	background:white;
+	width:50%;
+	border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    
+    margin-left: -1px;
+}
+.custom-content .problem .liBox li span{
+	display:block;
+	padding:15px 0;
+	text-align: center;
+	font-size:14px;
+	color:#181818;
+}
+.custom-content .problem .liBox li i{
+	vertical-align: middle;
+}
+.custom-content .problem .liBox li i img{
+	width:40px;
+	height:40px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.custom-content .aboutUs.button{
+	background:none;
+}
+
+.safty-content{
+	background-color: rgb(246, 246, 246);
+}
+.safty-content .title{
+	font-size:16px;
+	font-family: "微软雅黑";
+	padding:8px 0;
+	margin-bottom:0;
+	color:#181818;
+}
+.safty-content .informa{
+	font-size:14px;
+	color:#656565;
+	line-height:20px;
+}
+.safty-section{
+	padding:1px 12px 12px 12px;
+	margin-top:11px;
+	border-top: 1px solid #e9e9e9;
+	background:white;
+}
+.safty-section .top{
+	padding-top:30px;
+	border-bottom: 1px solid #e9e9e9;
+	margin-bottom:10px;
+}
+.safty-section .top .imgBox{
+	width:33.3%;
+}
+.safty-section .top .imgBox img{
+	width:100%;
+}
+.safty-section .top .wenzi{
+	width:66.6%;
+	padding-left:7%;
+	font-size:14px;
+}
+
+
+.safty-content .center{
+	margin-bottom:10px;
+}
+.safty-content .center .tdClass{
+	padding: 6px 12px;
+    border: 1px solid #e9e9e9;
+    font-size:15px;
+   
+    
+}
+.safty-content .center .tdClass.tdBg{
+	background:#f3f2f5;
+}
+
+.safty-content .usImgBox img{
+	width:100%
+}
+
+/***************** custom end ********************/
+
+/***************** me start ********************/
+
+
+.me-content{
+	background: #f6f6f6;
+}
+
+.me-content .userInfoBox{
+	width: 100%;
+    height: auto;
+   padding:7.5% 7.5% 7.5% 33.75%;
+   position:relative;
+    background: url(../images/bsu_bg.jpg) no-repeat #27adff;
+    background-size: cover;
+    min-height: 120px;
+}
+
+.me-content .userInfoBox p{
+	color:white;
+	font:18px/72px "微软雅黑";
+	height: 72px;
+}
+
+.me-content .myPhoto{
+	position:absolute;
+	left:5.6%;
+	top:24px;
+	width:72px;
+	height:72px;
+}
+.me-content .myPhoto img{
+	border-radius: 50%;
+	width:100%;
+}
+
+.me-content .tubiao{
+	width:12px;
+	height:21px;
+	position: absolute;
+	right:10px;
+	top:50px;
+}
+.me-content .tubiao img{
+	width:100%;
+	height:100%;
+}
+.me-content .myTitle{
+	padding:20px 0 20px 10px;
+	font:15px/15px "微软雅黑";
+	color:#181818;
+}
+.me-content .dingBox{
+	background:white;
+	padding:16px 0 10px 0;
+}
+.me-content .dingBox li{
+	width:33.3%;
+	text-align: center;
+}
+.me-content .dingBox li img{
+	width:37%;
+	margin-bottom: 6px;
+}
+.log-content .scroll{
+	height:100%;
+}
+
+.log-content .scroll .wrapper{
+	width:100%;
+	height:100%;
+	background: url(../images/degnlubg.jpg) no-repeat;
+	background-size: cover;
+}
+.log-content .logTitle{
+	text-align: center;
+}
+.log-content .logTitle img{
+	width:78px
+}
+.log-content .logTitle h1{
+	color:white;
+	margin-top:0;
+}
+
+.log-content .inputBox{
+	padding:10px 10% 10px 10%;
+}
+
+
+.log-content .inputBox .input{
+	display:-webkit-flex;
+	height:48px;
+	margin-bottom:3px;
+	 border-bottom: 1px solid #807f99;
+}
+
+
+
+
+.log-content .inputBox .input span{
+	display:block;
+	width:48px;
+	height:48px;
+	position:relative
+}
+.log-content .inputBox .input span img{
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:20px;
+	height:20px;
+	transform: translate(-50%,-50%);
+}
+.log-content .inputBox .input input{
+	flex:1;
+	vertical-align: middle;
+	height:48px;
+	background:transparent;
+	font:13px/48px "微软雅黑";
+	color:white;
+}
+.log-content .inputBox .registerBtn.button{
+	border-radius:4px;
+	background:#e4e4e4;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+.log-content .inputBox .logCheck.item{
+	
+	background:transparent;
+	border:0;
+	width:63%;
+}
+.log-content .inputBox .logCheck.item .item-content{
+	position:relative;
+	left:-15px;
+	top:-10px
+}
+.log-content .inputBox .logCheck .checkbox .checkbox-icon {
+	background:transparent;
+	left:-10px;
+	top:-10px;
+}
+.log-content .inputBox .logCheck span{
+	font-size:14px;
+	color:#aeaeae;
+}
+.log-content .inputBox .footBox{
+	position:relative;
+	
+}
+.log-content .inputBox .footBox .hasNum{
+	position:absolute;
+	right:0;
+	top:10px;
+	color:white;
+	font-size:14px;
+}
+.log-content .inputBox .logfooter span:nth-of-type(1){
+	color:#aeaeae;
+	padding-top:5px;
+	font-size:13px;
+}
+.log-content .inputBox .logfooter span:nth-of-type(2){
+	color:white;
+	padding-top:5px;
+	font-size:13px;
+}
+
+
+.exitUser{
+	position:absolute;
+	right:5px;
+	top:39px;
+}
+/***************** me end ********************/

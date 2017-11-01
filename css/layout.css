@@ -1,0 +1,331 @@
+@charset "utf-8";
+.flight_foo{ padding-bottom:5rem;}
+.flight_title{ height:4rem; line-height:4rem;  box-sizing:border-box; width:100%; background:#49D3DD;  color:#fff;}
+.flight_title font{ color:#fff;}
+.pofir{  position:fixed; top:0; left:0; z-index:9;}
+.ptHeiht{ padding-top:4rem;}
+p.c_138fe1, span.c_138fe1{
+	color: #49D3DD !important;
+}
+.flight_list{ width:100%; }
+.but_weekBox{ width:100%; padding:0.55rem 0; overflow:hidden; }
+.but_weekBox li{ width:33.33%; height:auto; box-sizing:border-box; cursor:pointer;}
+.but_weekBox li i{ width:0.66rem; height:1.16rem; position:absolute; top:45%; margin-top:-0.408rem;}
+.but_weekBox li i.prenbut{ left:0.55rem; background:url(http://m.bibi321.com/hl/resources/air/image/sa_pren.png) no-repeat; background-size:0.66rem 1.16rem ; }
+.but_weekBox li i.nextbut{ right:0.55rem; background:url(http://m.bibi321.com/hl/resources/air/image/sa_next.png) no-repeat; background-size:0.66rem 1.16rem ;}
+.huabanBox{ width:100%; height:auto; overflow:hidden;}
+.huabanBox li{ width:100%; height:auto; }
+.huabanBox li a{ display:block; padding:0.55rem; width:95%; margin:0 auto; box-sizing:border-box;}
+.newboxleft{ width:75%; height:auto;}
+.newboxright{ width:23%; height:auto;}
+.nisu_left{ width:40%; height:auto; float:left; overflow:hidden;}
+.sbit_iskbox{ width:25%; height:2rem; float:left; margin:1.3rem 0 0 -10%;}
+.sbit_iskbox_stop{ width:25%; height:2rem; float:left; margin:0 0 0 -10%;}
+.bg_duic_box{ background:url(http://m.bibi321.com/hl/resources/air/image/fuch_bix_01.png) no-repeat; background-size: contain;}
+.bsui_ptxt{ line-height:1.94rem; padding-left:2.3rem;}
+.bsui_ptxt .pr_icon{ height:1.94rem; display:inline-block; width:auto; position:absolute; top:0; left:0;}
+.bsui_ptxt .pr_icon img{ height:100%; width:auto; display:inline;}
+.nwiu_bix{ display:inline-block; padding:0 0.5rem;border: 1px solid #FF9E5E; border-radius: 6px;}
+.filter_nav{ width:100%; height:4rem; position:fixed; bottom:0; left:0; background-color:#5b6b83;}
+.bar.bar-positive{background: #49D3DD;}
+.filter_nav li{ width:33.33%; height:5rem; float:left; text-align:center; box-sizing:border-box; padding-top:0.7rem; cursor:pointer;}
+.filter_nav li i{ display:inline-block; width:1.5rem; height:1.5rem;}
+.filter_nav li i.bg_filter01{ background:url(http://m.bibi321.com/hl/resources/air/image/fit_icon_01.png) no-repeat; background-size:1.5rem;}
+.filter_nav li i.bg_filter02{ background:url(http://m.bibi321.com/hl/resources/air/image/fit_icon_02.png) no-repeat; background-size:1.5rem;}
+.filter_nav li i.bg_filter03{ background:url(http://m.bibi321.com/hl/resources/air/image/fit_icon_03.png) no-repeat; background-size:1.5rem;}
+.filter_nav li.on{ color:#49D3DD;}
+.filter_nav li.on i.bg_filter01{ background:url(../resources/air/image/selcet-on.png) no-repeat; background-size:1.5rem;}
+.filter_nav li.on i.bg_filter02{ background: url(../resources/air/image/time-on.png) no-repeat; background-size:1.5rem;}
+.filter_nav li.on i.bg_filter03{ background:url(../resources/air/image/price-in.png) no-repeat; background-size:1.5rem;}
+.filterBox{ width:100%; height:100%; position:fixed; top:0; left:0; background:url(http://m.bibi321.com/hl/resources/air/image/bg_88000.png); z-index:10;}
+.filterMian{ width:100%; height:70%; overflow:hidden; position:fixed; bottom:0; left:0; background:#f5f5f5; box-sizing:border-box; padding-top:4rem;}
+.nwiu_but{ width:100%; height:4rem; line-height:4rem; background:url(http://m.bibi321.com/hl/resources/air/image/bg_boxd.png); position:absolute; top:0; left:0;}
+.nwiu_but li{ width:25%; height:4rem; cursor:pointer;}
+.nwiu_but li.wid50{ width:50%;}
+.nwiu_but li:active{ color:#ff6d6d;}
+.tuaobox{ padding:0 2rem; height:5rem; width:100%; box-sizing:border-box; line-height:5rem; position:absolute; top:4rem; left:0;}
+.nbox_box{ width:100%; height:100%;}
+.fil_tuaobox{ width:30%; height:100%; }
+.fil_tuaobox li{ width:100%; height:20%; display: table;  box-sizing:border-box; border-right:1px solid #ddd; border-bottom:1px solid #ddd; cursor:pointer;}
+.fil_tuaobox li p{ width:100%; height:100%; display:table-cell; cursor:pointer;  }
+.fil_tuaobox li.on{ border-right:none; background:#fff;}
+.filt_riamin{ padding-left:1rem; height:100%; background:#fff; width:70%; box-sizing:border-box; overflow-y:scroll; position:relative;}
+.nwiu_boxul{ width:100%; height:auto;}
+.nwiu_boxul li{ width:100%; height:auto; }
+.nwiu_boxul li > label{padding:1rem 0;}
+.bsit_li, .bsit_li i{ height:1.94rem; line-height:1.94rem;}
+.bsit_li{}
+.bsit_li i img{ height:100%; width:auto; vertical-align:bottom;}
+.huaix_ul{ width:100%; height:auto; background:#fff;}
+.huaix_ul li{ width:95%; height: auto; border-bottom:1px solid #ddd; box-sizing:border-box; padding:1rem 0.5rem 0.5rem 0.5rem; margin:0 auto;}
+.huaix_ul li a{ display:inline; padding:0;color: #49D3DD;font-size: 1rem;}
+.bsit_bg{ padding:0.2rem 0.8rem; margin-left:1rem; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem;}
+.huabanBox li.on{ background:#49D3DD; color:#fff; margin-bottom:1rem; border-bottom:1px solid #ddd;}
+.huabanBox li.on > a div, .huabanBox li.on > a p, .huabanBox li.on > a span{ color:#fff; border-color:#fff;}
+.huabanBox li.on > a{ border-bottom:none;}
+.sbit_box{ width:70%; padding:0 5%; height:50%; margin:1rem auto; overflow:hidden;}
+.yti_hdie{ opacity:0;}
+.bosptiud{ width:80%; height:3.3rem; line-height:3.3rem; border-bottom:1px solid #fff; margin:0 auto 1rem;}
+.flibox{ width:100%; height:6.8rem;}
+.fliTimenbox{ width:100%; height:7.8rem;}
+/*.fliTimenbox div{ height:5.8rem; box-sizing:border-box;}*/
+.moniylist{ width:100%; height:auto;}
+.moniylist li{ width:25%; box-sizing:border-box;}
+.bsit_heig{ height:3rem; line-height:3rem; cursor:pointer;}
+
+.header .heaTxx { font-size:1.5rem ;}
+.header .but_nsit {font-size:1.3rem ;}
+
+.buti_bitu span{  height:3rem; line-height:3rem; box-sizing:border-box;padding-left: 8px;}
+.buti_bitu input[type="text"], .buti_bitu input[type="password"], .ksiu_butbox{ width:75%; height:3rem; line-height:3rem; border:none;}
+/*.addIcon{ width:2.16rem; height:1.55rem; position:absolute; right:0.55rem; top:50%; margin-top:-0.77rem; background:url(http://m.bibi321.com/hl/resources/air/image/bsit_bixtpo.png) no-repeat; background-size:2.16rem 1.55rem; cursor:pointer;}*/
+.cenBox{ width:100%; height:auto;}
+.cenBox li{ padding:0.55rem 3.2rem 0.55rem 4.5rem; word-wrap:break-word;}
+.deleteIcon{ width:2rem; height:2rem; background:url(http://m.bibi321.com/hl/resources/air/image/deletIcon.png) no-repeat; background-size:2rem; position:absolute; top:50%; margin-top:-1rem; left:1rem; cursor:pointer;}
+.nwpo_boti{ width:1.27rem; height:2.16rem; background:url(http://m.bibi321.com/hl/resources/air/image/to_999.png) no-repeat; background-size:1.27rem 2.16rem; position:absolute; top:50%; margin-top:-1.08rem; right:0.55rem; cursor:pointer;}
+.sniu_spoc{ width:22px; height:22px; position:absolute; top:50%; margin-top:-11px; right:0.55rem; }
+.monylistbox{ position:fixed; bottom:0; width:100%; left:50%; margin-left:-50%; height:3.8rem; line-height:3rem; padding:0.4rem; box-sizing:border-box; background:url(http://m.bibi321.com/hl/resources/air/image/bg_boxd.png); z-index:10;}
+.tomaiby{ width:7rem; height:3rem; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem;}
+.bitu_bg{ }
+.bitu_bg i{background:url(http://m.bibi321.com/hl/resources/air/image/bsut_tu.png) no-repeat right center; background-size:1.55rem 0.77rem; width:1.55rem; height:0.77rem;}
+.bskt_ksjt{background:url(http://m.bibi321.com/hl/resources/air/image/bsut_go.png) no-repeat right center; background-size:1.55rem 0.77rem;}
+.minsjBox,  .nsutBoxs{ width:100%; height:100%; position:fixed; top:0; left:50%; /*max-width:720px*/; margin-left:-50%; background:url(http://m.bibi321.com/hl/resources/air/image/bg60000.png); z-index:9; cursor:pointer;}
+.nieut_boxt{width:100%; min-height:100%; position: absolute; top:0; left:50%; /*max-width:720px*/; margin-left:-50%; background:url(http://m.bibi321.com/hl/resources/air/image/bg60000.png); z-index:9; cursor:pointer;}
+.nir_pox_box{ width:100%; height:auto; box-sizing:border-box; position:absolute; bottom:3.8rem; left:50%; /*max-width:720px*/; margin-left:-50%; padding:1rem;}
+.nir_pox_box p{ height:2.8rem; line-height:2.8rem;}
+.nieut_boxt{ z-index:11; padding-top:3rem;}
+.float_boxt{ z-index:11; padding-top:3rem;position:fixed;}
+
+.nabti_box{ width:80%; height:auto; border:1px solid #dededf; border-bottom:none; margin:20% auto 0;}
+
+.nskt_table tr td{ padding:0.5rem 1rem; border:1px solid #e9e9e9;line-height: 130%;}
+.cst_content ul li p{line-height: 135%;}
+.aboutus_ctn p{line-height:135%;}
+
+
+.nieut_boxt table{ width:90%; margin:0 auto; border-collapse: collapse;}
+.nieut_boxt table tr td{ border:1px solid #e9e9e9; padding:0.5rem 0.3rem ; }
+.bsit_pit{width:90%; margin:0 auto; text-indent:1rem;}
+.but_nsit{ width:5.5rem; height:4rem; position:absolute; top:0; right:1rem; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem; cursor:pointer; color:#fff;}
+.bsit_bixsles{ width:75%; height:3.3rem; border:none;}
+.bsit_bixsles option{ width:100%; height:3.3rem;}
+.cuisiAdd{ width:1.5rem; height:1.5rem; line-height:1.4rem; border:1px solid #49D3DD; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.txtsio_p{ height:2.7rem; line-height:2.7rem;}
+.poti_input{ width:22px;  height:22px; position: absolute; top:33%; margin-left:-11px; left:2rem;}
+.nsut_bixt{ width:2rem; height:2rem; position:absolute; top:50%; margin-top:-1rem; right:1rem; background:url(http://m.bibi321.com/hl/resources/air/image/nsit_box.png) no-repeat; background-size:2rem; cursor:pointer; }
+.bst_jdir{ border:1px solid #49d3dd; padding:0 0.55rem; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem; }
+.ixnficon{ width:2.16rem; height:auto; }
+.nsiut_icon{ width:1rem; height:auto;}
+.sbit_ulpo, .sbit_ulpo li{ width:100%; height:auto;}
+.sbit_ulpo li a{ padding:0.8rem 0rem 0.8rem 7.6rem;}
+.sbit_ulpo li i{ position:absolute; top:50%; margin-top:-2.1rem; left:1.5rem; width:4.2rem; height:4.2rem;}
+.bsit_biro{ padding:0 0.55rem; border:1px solid #ff8337; color:#ff8337; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem;}
+.snikt_box{ width:0.68rem; height:1rem; background:url(http://m.bibi321.com/hl/resources/air/image/nsit_spod.png) no-repeat; background-size:0.68rem 1rem; position:absolute; right:1rem; top:50%; margin-top:-0.5rem;}
+.pto_uait{ height:2.33rem; line-height:2.33rem; text-align:left;padding-left:0.5rem;}
+.pto_uait i{ width:1.3rem; height:1.3rem; background:url(http://m.bibi321.com/hl/resources/air/image/njs_icon.png) no-repeat; background-size:1.2rem;vertical-align:middle; margin-top:-0.2rem;}
+.sbbtime{ width:60%; position:absolute; bottom:1px; left:50%; margin-left:-30%; height:1.2rem; line-height:1.2rem;}
+.sit_bsitd{ width:1.2rem; height:1.2rem; border:1px solid #ff6d6d; line-height:1.1rem; color:#ff6d6d; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; }
+.yiau_boxt{ width:1.8rem; height:1.8rem; line-height:1.8rem; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.bsiu_but{ height:1.15rem; cursor:pointer;}
+.bsiu_but img{ max-width:1.5rem; height:auto;}
+/*时间插件*/
+.page {display: none;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;overflow: hidden;}
+
+#datescroll div{float: left;margin-left: 10%;margin-top: 15px;padding-right: 22px;}
+#datescroll_datetime div{float: left;margin-left: 10%;padding-right: 22px;}
+#yearwrapper{position: absolute;left: 0;top:45px;bottom: 60px;width:80%;}
+#monthwrapper{position: absolute;left: 26%;top:45px;bottom: 60px;width:80%;}
+#daywrapper{position: absolute;left: 50%;top:45px;bottom: 60px;width:80%;}
+#Hourwrapper{position: absolute;left: 0;top:195px;bottom: 68px;width:80%;}
+#Minutewrapper{position: absolute;left: 26%;top:195px;bottom: 68px;width:80%;}
+#Secondwrapper{position: absolute;left: 50%;top:195px;bottom: 68px;width:80%;}
+#Hourwrapper ul li{color: #898989;font-size: 12px;}
+#Minutewrapper ul li{color: #898989;font-size: 12px;}
+#Secondwrapper ul li{color: #898989;font-size: 12px;}
+#yearwrapper ul li{color: #898989;font-size: 12px;}
+#monthwrapper ul li{color: #898989;font-size: 12px;}
+#daywrapper ul li{color: #898989;font-size: 12px;}
+#markyear{position:relative; margin-left: 76px;top:-2px;}
+#markmonth{position:relative; margin-left: 40px;top:-2px;}
+#markday{position:relative; margin-left: 42px;top:-2px;}
+#markhour{position:relative; margin-left: 62px;top:-2px;}
+#markminut{position:relative; margin-left: 58px;top:-2px;}
+#marksecond{position:relative; margin-left: 68px;top:-2px;}
+#dateheader{width: 100%;height: 50px;background: #27adff;text-align: center;color: #fff;line-height: 50px;font-size: 20px;}
+#setcancle ul{text-align: center;line-height: 30px; margin:1px auto;font-size: 20px;}
+#setcancle ul li{border-radius:3px;float: left;width: 40%;height: 30px;list-style-type: none;font-size:16px;}
+#dateconfirm{position: absolute;background:#27adff;left:20px;color:#fff;}
+#datecancle{position: absolute;background:  #dcdddd;right:20px;width: 40%;color:#666;}
+#dateshadow{display: none;position: absolute;width: 100%;height: 100%;top:0;left:0;background: #000; filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8; z-index:10;}
+#datePage{font-size: 22px; border-radius: 3px; position:absolute;top:110px;MARGIN-RIGHT: auto;vertical-align:middle;
+MARGIN-LEFT: auto;width: 80%;;height: 240px;background: #FFFFFF;z-index:9999999;}
+#datetitle{width: 100%;height:50px;background: #27adff;text-align: center;color: #fff;line-height: 50px;font-size: 20px;font-family:'microsoft yahei';}
+#datetitle h1{font-weight:normal;}
+#datemark{font-size: 18px;left:5%;width: 90%;height: 20px;position:absolute;top:108px;background:#eee;border:1px solid #eee;}
+#timemark{font-size: 18px;left:5%;width: 90%;height: 20px;position:absolute;top:242px;background:#eee;border:1px solid #eee;}
+#datescroll{background: #F8F8F8;width:94%; margin:10px 3%;border: 1px solid #E0E0E0;border-radius: 4px;height: 120px;text-align: center;line-height: 40px;}
+#datescroll_datetime{display: none;background:#F8F8F8;width:94%; margin:10px 3%;margin-top: 10px;border: 1px solid #E0E0E0;border-radius: 4px;height: 120px;text-align: center;line-height: 40px;}
+#yearwrapper ul,#monthwrapper ul,#daywrapper ul{width:40%;}
+#Hourwrapper ul,#Minutewrapper ul,#Secondwrapper ul{width:40%;}
+#dateFooter{width:100%;background: #fff;height: 50px;bottom: 0px;position: absolute;}
+
+
+.date_li_ma .defaultTheme-button{ position:absolute; top:0; left:0; width:4.5rem; height:4.5rem; opacity:0; }
+.date_li_ma .defaultTheme-button .file-input-wrapper{ width:4.5rem; height:4.5rem; }
+.date_li_ma .defaultTheme-queue{ width:auto; float:right;}
+.date_li_ma .defaultTheme-queue li{ padding:0; font-size:1.2rem;}
+.date_li_ma .defaultTheme-queue .file-icon{opacity:0;}
+
+.reboxBut{ width:80%; height:3.8rem; text-align:center; line-height:3.8rem; display:block; margin:2rem auto 0rem; cursor:pointer; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem;}
+.wiks{ width:80%; margin:0 auto;}
+.sbit_A{ width:90%; margin:2rem auto 0;}
+.sbit_A a{ display:inline-block; width:18%; height:auto; margin:0 3%;}
+.bsit_topbox{ background: url(http://m.bibi321.com/hl/resources/air/image/bsi_bs.png) center no-repeat; background-size:100%; height:2rem; line-height:2rem;}
+.snsit_but{ width:35%; height:3rem; line-height:3rem; box-sizing:border-box; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem;  background:#289deb;}
+.situ_diud{ height:22px; line-height:22px; vertical-align:middle; }
+
+.Expired{ background:#ccc !important; color:#fff !important;}
+
+.bsit_a{ width:100%; height:auto; padding:2rem 2rem 2rem 9rem; box-sizing:border-box; background:url(http://m.bibi321.com/hl/resources/air/image/bsu_bg.jpg) no-repeat #27adff; background-size:cover; min-height:10rem;}
+.prbaIcon{ width:6rem; height:6rem; position:absolute; top:2rem; left:1.5rem;}
+.prbaIcon img{ width:6rem; height:6rem; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.nri_bai{ width:1rem; height:1.8rem; position:absolute; top:50%; right:0.5rem; margin-top:-0.9rem;}
+.my_h3{ height:4rem; line-height:4rem;}
+.naiu_ul{ width:100%; height:auto;}
+.naiu_ul li{ width:33.33%; height:auto;}
+.naiu_ul li a{ padding:1rem 0;}
+.naiu_ul li a img{ width:3.55rem; height:3.55rem; display:block; margin:0 auto 0.5rem;}
+.jish_bsit_a{ height:5rem; line-height:5rem; border-bottom:1px solid #e4e4e4; padding-left:4rem;}
+.jish_bsit_a img{ width:1.6rem; height:1.6rem; position:absolute; top:50%; left:1.2rem; margin-top:-0.8rem;}
+.usreUl li{ padding:1rem 2rem 1rem 1rem; border-bottom:1px solid #E7E7E7; cursor:pointer;}
+.usreUl li i{ width:0.8rem; height:1.45rem; position:absolute; top:50%; right:0.3rem; margin-top:-0.725rem;}
+.bsit_box, .bsit_box img{ width:6rem; height:6rem; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.heius6{ line-height:6rem;}
+.nrigbox{ width:75%; height:3rem; line-height:3rem;}
+.bsiut_box{ width:100%; height:4.3rem;}
+.bsiut_box li{ width:33.33%; height:4.3rem; line-height:4.3rem; box-sizing:border-box; float:left; cursor:pointer;}
+.bsiut_box li.on{ border-bottom:3px solid #49D3DD; color:#49D3DD;}
+.newbsuiu_cpos li{ padding-left:2rem;}
+
+.nsiu_remove{ width:3rem; height:auto; display:block; margin:2rem  auto; cursor:pointer;}
+.nsiu_remove i{ width:1.5rem; height:auto;}
+.nsitoshow { height:1.7rem; line-height:1.7rem;}
+.nsitoshow span{ display:inline-block; width:1.7rem; height:1.7rem; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; background:#999; color:#fff;}
+.orderUl{ width:100%; height:auto;}
+.orderUl li{ background:#fff; border-top:1px solid #dedede; border-bottom:1px solid #dedede;}
+.bstiu_sp{ border:1px solid #49d3dd; color:#49d3dd;  border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem;}
+.ardBut span, .ardBut a, .ardBut input[type="button"]{ display:inline-block; width:7rem; height:2.5rem; line-height:2.5rem; border-radius:0.2rem; vertical-align:top; cursor:pointer; font-size:1.2rem;}
+.ardBut .border-1_d{ border:1px solid #ddd;}
+.mdit_bsit{ width:100%; height:30%; position:absolute; bottom:0; left:0; padding-top:4rem;}
+.bsot_rid{ width:100%; height:100%; box-sizing:border-box;}
+.bsktis span,.bsktis > label { width:33.33%; height:22px; line-height:22px;}
+.nsit_box span{ width:100%;height:22px; line-height:22px;}
+#clipArea {margin: 20px 1rem;height: 300px;}
+#view {margin: 0 auto 20px;width: 260px;height: 260px;}
+.shuwikks{ width:7rem; display:inline-block; overflow:hidden; height:2rem; line-height:2rem; text-align:center;  border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem; position:relative; background:#ff6d6d; color:#fff; font-size:1.2rem;}
+.shuwikks input[type="file"]{ opacity:0; position:absolute; top:0; left:0; width:7rem; height:2rem; cursor:pointer;}
+.nsiit_xt{ height:1.94rem; line-height:1.94rem;}
+.sm_plane{display: inline-block;height: 1.94rem; vertical-align:top;}
+.sm_plane img{ height:1.94rem; width:auto;}
+.bsit_bosico{display: inline-block;height: 1.3rem; vertical-align:middle;}
+.bsit_bosico img{ height:1.3rem; width:auto;}
+.orderUl li.c_999, .orderUl li.c_999 span, .orderUl li.c_999 p{ color:#999!important; }
+.orderUl li.c_999 .bstiu_sp{ border-color:#999;}
+.orderUl li.c_999 i img{filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);-webkit-filter:grayscale(1)}
+.wind40{ width:40%;}
+.yiau_bsitt{width: 1.8rem; height: 1.8rem;line-height: 1.8rem; border:1px solid #289deb; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.nsut_sese{ width:80%; height:3rem; line-height:3rem;  font-size:1.4rem; border:1px solid #dcdcdc !important; cursor:pointer;}
+.nsut_sese option{ height:3rem;}
+.hsktk{ height:3rem; line-height:3rem;}
+.ksit_textarea{ width:80%; height:9rem;font-size:1.4rem; border:1px solid #dcdcdc !important;}
+.nsit_siur span{ width:50%;vertical-align:middle; margin-left:-1px;}
+.nsit_siur span img{width:60%;display: inline-block;}
+.nsit_siur li{ width:50%;  border-bottom:1px solid #e9e9e9;border-left:1px solid #e9e9e9; vertical-align:middle; margin-left:-1px;}
+.nsit_siur li a{height:3.4rem; line-height:3.4rem; padding:1.5rem 0;text-align: left;}
+.nsit_siur li i{ width:3.4rem; height:3.4rem; vertical-align:middle;padding-left: 3rem;}
+.nsku_i{ width:0.8rem; height:1.45rem; background:url(http://m.bibi321.com/hl/resources/air/image/afd1.png) no-repeat ; background-size:0.8rem 1.45rem; position:absolute; top:50%; margin-top:-0.725rem; right:1rem;}
+.fdsvd{ padding-left:9.5rem; background:url(http://m.bibi321.com/hl/resources/air/image/nsi_ico.jpg) 0rem 1.2rem no-repeat; background-size:7.75rem 6.65rem;}
+.nskt_table tr td{ padding:0.5rem 1rem; border:1px solid #e9e9e9}
+.lsjt_icon img{ display:block; margin:0 auto; width:22.95rem; height:auto; }
+.cksitbox img{ display:block; margin:0 auto;}
+.nsitu_soa{ padding:0.5rem 1rem; border:1px solid #27adff; color:#27adff; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem; display: inline-block;}
+.nbsut_box{ width:22px; height:22px; position:absolute; right:0.5rem; top:50%; margin-top:-11px;}
+.plndtbox{ padding-left:1rem !important;}
+.nsubix_box{ background:url(http://m.bibi321.com/hl/resources/air/image/black_line.png) center repeat-x; height:2rem; line-height:2rem;}
+.nsbsu_ba{ position:absolute; right:-5px; top:0; width:22px; height:22px; box-sizing:border-box; border:1px solid #27adff; color:#27adff; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.lfdsiBox{ width:100%; height:30%;position: absolute; bottom: 0; left: 0;}
+.nstu_boxd{ width:3.4rem; height:3.4rem; display:block; margin:0 auto; background:url(http://m.bibi321.com/hl/resources/air/image/ns_close.png) no-repeat; background-size:3.3rem;}
+
+
+
+.returnjs, .butchir, .contactsBut, .databutBix, .aboutUsBut, .cancelBut, .determineBut, .tisoBut, .dinsbut{cursor:pointer;}
+
+.dataRigh{
+    animation:pro_dataRigh 0.5s 0s  forwards ease;-webkit-animation:pro_dataRigh 0.5s 0s  forwards ease; -moz-animation:pro_dataRigh 0.5s 0s forwards ease;
+	}
+@keyframes pro_dataRigh{
+    0%{transform:translate(0, 200%);}
+    100%{transform:translate(0, 0);}
+}
+@-webkit-keyframes pro_dataRigh{
+    0%{-webkit-transform:translate(0, 200%);}
+    100%{-webkit-transform:translate(0, 0);}
+}
+@-moz-keyframes pro_dataRigh{
+   	0%{-moz-transform:translate(0, 200%); }
+    100%{-moz-transform:translate(0, 0); }
+}
+
+.dataLeft{
+    animation:pro_dataLeft 0.5s 0s  forwards ease;-webkit-animation:pro_dataLeft 0.5s 0s  forwards ease; -moz-animation:pro_dataLeft 0.5s 0s forwards ease;
+	}
+@keyframes pro_dataLeft{
+    0%{transform:translate(0, -200%);}
+    100%{transform:translate(0, 0);}
+}
+@-webkit-keyframes pro_dataLeft{
+    0%{-webkit-transform:translate(0, -200%);}
+    100%{-webkit-transform:translate(0, 0);}
+}
+@-moz-keyframes pro_dataLeft{
+   	0%{-moz-transform:translate(0, -200%); }
+    100%{-moz-transform:translate(0, 0);}
+}
+
+.usrbox{ width:12.6rem; height:12.6rem; margin:3rem auto 1rem;}
+.nsjah_a{ width:9rem; height:3rem; line-height:3rem; margin:2rem auto; border:1px solid #27adff; color:#27adff; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem;}
+.addNewBut{ padding:0 1rem; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem; background:white; color:#49D3DD; font-size:1.2rem; height:2.5rem; line-height:2.5rem; margin-top:0.25rem;border: 1px solid #49D3DD;}
+.wus_bxot{ width:15%;}
+.nsitBox{ width:85%;}
+
+.bg_icon{ background: url(../resources/air/image/loginbg.png) center no-repeat; background-size:cover;}
+.logoIcon{ width:14.55rem; height:auto; margin:0 auto;}
+.bsrroebox{ width:80%; height:auto; margin:1rem auto 2.3rem;}
+
+.buti_New{ height:4rem; position: relative; padding-left:3.3rem;}
+.leftIocn{ width:1.7rem; height:1.7rem; position:absolute; top:1rem; left:0.8rem;}
+.buti_New input[type="text"], .buti_New input[type="password"]{ width:100%; height:4rem; line-height:4rem; background:none; box-sizing:border-box; border:none;}
+
+.around{ width:14px; height:14px; display:inline-block; border:1px solid #27adff; color:#27adff; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; font-size:14px; line-height:14px;}
+.yiauhsj{ width:22px; height:22px; display:inline-block; border:1px solid #49D3DD; color:#49D3DD; border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%; font-size:16px; line-height:22px;}
+.bsit_bvoxt{ border:1px solid #999; width:6rem; height:2rem; line-height:2rem; font-size:1.5rem; border-radius:0.2rem; -moz-border-radius:0.2rem; -webkit-border-radius:0.2rem;}
+.wid50{ width:50%;}
+.bsit_span {height:2rem; line-height:2rem;}
+.reballBox{ width:2.5rem; height:2.5rem; position:absolute; top:1rem; left:1rem;}
+
+.wid90{ width:90%; height:auto; margin:0 auto;}
+.rhsir_box{ padding-left:5.5rem;}
+.bsitu_ic{ width:5.1rem; height:5.1rem; position:absolute; top:-3rem; left:-0.5rem; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 -15px 10px -12px rgba(0, 0, 0, 0.05) inset; border:2px solid #fff;}
+.bsitu_ic, .bsitu_ic img{ border-radius:50%; -moz-border-radius:50%; -webkit-border-radius:50%;}
+.bsit_spaos{ height:3.75rem; line-height:3.75rem; border:1px solid #2577e3; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem;}
+.bsir_boxds{ height:3.75rem; background:#2577e3; padding-left:0.5rem;}
+.bsrsk_box{ height:3.75rem;}
+.bsrsk_box img{ height:100%; width:auto;}
+.bsit_spai{ width:1.6rem; height:auto;}
+.nsrbox{ width:100%; height:4.2rem; line-height:4.2rem; border-radius:0.3rem; -moz-border-radius:0.3rem; -webkit-border-radius:0.3rem;}
+.ksiu_butbox_ns02{ padding-top:0.6rem; width:75%;}
+.bsut_bbai{ padding-left:3rem; background:url(http://m.bibi321.com/hl/resources/air/image/ic_phone.png) left center no-repeat; background-size:2.5rem;}
+
+.title_01, .title_02{ line-height:1.8rem;}
+
+.overflow_omission {white-space:nowrap;text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow: hidden;}

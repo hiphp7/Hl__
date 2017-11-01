@@ -1,0 +1,110 @@
+
+.mask {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        display: none;
+}
+
+
+.popupWin {
+        position: absolute;
+        top: 50%;
+        left: 21%;
+        width: 58%;
+        min-width: 11rem;
+        height: 5.6rem;
+        margin-top: -2.8rem;
+        background: #fff;
+        border-radius: 3px;
+        display: none;
+        border-radius: 0.15rem;
+        z-index: 1000;
+}
+
+.popupWin p:nth-of-type(1) {
+        width: 80%;
+        margin: 0 10%;
+        height: 3.1rem;
+        line-height: 3.05rem;
+        border-bottom: 1px solid #c0c0c0;
+        text-align: center;
+        box-sizing: border-box;
+        font-size: 0.75rem;
+        color: #181818;
+}
+
+.popupWin p:nth-of-type(2) {
+        text-align: center;
+        font-size: 0.85rem;
+        color: #16a6f0;
+        height: 2.5rem;
+        width: 100%;
+        line-height: 2.5rem;
+}
+
+.termsOfService {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        background: #fff;
+        z-index: 1000;
+        display: none;
+        margin-top: 0;
+        overflow: hidden;
+}
+
+.termsOfService * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.termsOfService .head {
+        height: 2.5rem;
+        border-top: 1px solid #eaeaeb;
+        border-bottom: 1px solid #eaeaeb;
+}
+
+.termsOfService .head .title {
+        height: 2.4rem;
+        line-height: 2.4rem;
+        font-size: 1.536rem;
+        color: #34353a;
+        text-align: left;
+        padding: 0 1.5rem;
+}
+
+.termsOfService .center {
+        width: 100%;
+        max-height: 100%;
+        padding: 0 1.5rem;
+        float: left;
+        overflow-y: scroll;
+        padding-bottom: 4rem;
+}
+
+.termsOfService .center p {
+        width: 100%;
+        border-bottom: 0;
+        color: #535353;
+        height: auto;
+        line-height: 2rem;
+        font-size: 1.28rem;
+        text-align: left;
+        margin: 0;
+}
+
+.termsOfService .center p.title {
+        margin-top: 1rem;
+}
+
+.termsOfService .center p:nth-of-type(1) {
+        margin-top: 1rem;
+}

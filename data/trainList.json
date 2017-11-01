@@ -1,0 +1,559 @@
+{
+    "code": 0,
+    "item": {
+        "searchDate": "2016-10-14",
+        "depStation": "深圳",
+        "arrStation": "上海",
+        "trainList": [
+            {
+                "train_code": "D3126",
+                "start_station": "深圳北",
+                "end_station": "南京",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "07:00",
+                "arrive_time": "18:43",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "703",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 0,
+                "costtime": "11小时43分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 28,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 368,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 161,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 368,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D3108",
+                "start_station": "深圳北",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "08:11",
+                "arrive_time": "19:59",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "708",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 0,
+                "costtime": "11小时48分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 9,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 441,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 166,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 441,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D2284",
+                "start_station": "深圳北",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "08:47",
+                "arrive_time": "20:44",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "717",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 0,
+                "costtime": "11小时57分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 13,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 403,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 166,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 403,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D2282",
+                "start_station": "深圳北",
+                "end_station": "南京",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "09:13",
+                "arrive_time": "21:20",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "727",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 1,
+                "costtime": "12小时7分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 6,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 489,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 161,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 489,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D2286",
+                "start_station": "深圳北",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "09:55",
+                "arrive_time": "22:12",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "737",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 1,
+                "costtime": "12小时17分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 19,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 389,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 69,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 389,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D2288",
+                "start_station": "深圳北",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "10:40",
+                "arrive_time": "22:35",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "715",
+                "train_type": 1,
+                "depTimeId": 1,
+                "day_count": 0,
+                "costtime": "11小时55分",
+                "seatList": [
+                    {
+                        "price": "597.0",
+                        "count": 8,
+                        "typeId": 2,
+                        "typeName": "一等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 280,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "481.0",
+                        "count": 70,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "481.0",
+                    "count": 280,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "T212",
+                "start_station": "深圳",
+                "end_station": "上海南",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "13:08",
+                "arrive_time": "08:05",
+                "from_station": "深圳",
+                "arrive_station": "上海南",
+                "cost_time": "1137",
+                "train_type": 2,
+                "depTimeId": 2,
+                "day_count": 1,
+                "costtime": "18小时57分",
+                "seatList": [
+                    {
+                        "price": "613.0",
+                        "count": 10,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "391.0",
+                        "count": 300,
+                        "typeId": 6,
+                        "typeName": "硬卧"
+                    },
+                    {
+                        "price": "234.0",
+                        "count": 237,
+                        "typeId": 8,
+                        "typeName": "硬座"
+                    },
+                    {
+                        "price": "234.0",
+                        "count": 192,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "234.0",
+                    "count": 237,
+                    "typeId": 8,
+                    "typeName": "硬座"
+                }
+            },
+            {
+                "train_code": "T102",
+                "start_station": "深圳",
+                "end_station": "上海南",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "16:02",
+                "arrive_time": "11:06",
+                "from_station": "深圳",
+                "arrive_station": "上海南",
+                "cost_time": "1144",
+                "train_type": 2,
+                "depTimeId": 2,
+                "day_count": 1,
+                "costtime": "19小时4分",
+                "seatList": [
+                    {
+                        "price": "613.0",
+                        "count": 0,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "391.0",
+                        "count": 196,
+                        "typeId": 6,
+                        "typeName": "硬卧"
+                    },
+                    {
+                        "price": "234.0",
+                        "count": 346,
+                        "typeId": 8,
+                        "typeName": "硬座"
+                    },
+                    {
+                        "price": "234.0",
+                        "count": 184,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "234.0",
+                    "count": 346,
+                    "typeId": 8,
+                    "typeName": "硬座"
+                }
+            },
+            {
+                "train_code": "D906",
+                "start_station": "深圳北",
+                "end_station": "上海",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "20:00",
+                "arrive_time": "07:12",
+                "from_station": "深圳北",
+                "arrive_station": "上海",
+                "cost_time": "672",
+                "train_type": 1,
+                "depTimeId": 3,
+                "day_count": 0,
+                "costtime": "11小时12分",
+                "seatList": [
+                    {
+                        "price": "488.0",
+                        "count": 100,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "590.0",
+                        "count": 100,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "488.0",
+                        "count": 0,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "488.0",
+                    "count": 100,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D932",
+                "start_station": "广州南",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "20:10",
+                "arrive_time": "06:50",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "640",
+                "train_type": 1,
+                "depTimeId": 3,
+                "day_count": 0,
+                "costtime": "10小时40分",
+                "seatList": [
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "590.0",
+                        "count": 100,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "478.5",
+                    "count": 0,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            },
+            {
+                "train_code": "D936",
+                "start_station": "广州南",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "20:15",
+                "arrive_time": "06:55",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "640",
+                "train_type": 1,
+                "depTimeId": 3,
+                "day_count": 0,
+                "costtime": "10小时40分",
+                "seatList": [
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "1210.0",
+                        "count": 0,
+                        "typeId": 4,
+                        "typeName": "高级软卧"
+                    },
+                    {
+                        "price": "700.0",
+                        "count": 0,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "478.5",
+                    "count": 0,
+                    "typeId": 9,
+                    "typeName": "无座"
+                }
+            },
+            {
+                "train_code": "D942",
+                "start_station": "广州南",
+                "end_station": "上海虹桥",
+                "start_time": "",
+                "end_time": "",
+                "from_time": "20:20",
+                "arrive_time": "07:00",
+                "from_station": "深圳北",
+                "arrive_station": "上海虹桥",
+                "cost_time": "640",
+                "train_type": 1,
+                "depTimeId": 3,
+                "day_count": 0,
+                "costtime": "10小时40分",
+                "seatList": [
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 3,
+                        "typeName": "二等座"
+                    },
+                    {
+                        "price": "700.0",
+                        "count": 0,
+                        "typeId": 5,
+                        "typeName": "软卧"
+                    },
+                    {
+                        "price": "478.5",
+                        "count": 0,
+                        "typeId": 9,
+                        "typeName": "无座"
+                    }
+                ],
+                "lowerprice": {
+                    "price": "478.5",
+                    "count": 0,
+                    "typeId": 3,
+                    "typeName": "二等座"
+                }
+            }
+        ],
+        "stationList": [
+            {
+                "chk": false,
+                "station": "深圳北",
+                "type": "from_station"
+            },
+            {
+                "chk": false,
+                "station": "上海虹桥",
+                "type": "arrive_station"
+            },
+            {
+                "chk": false,
+                "station": "深圳",
+                "type": "from_station"
+            },
+            {
+                "chk": false,
+                "station": "上海南",
+                "type": "arrive_station"
+            },
+            {
+                "chk": false,
+                "station": "上海",
+                "type": "arrive_station"
+            }
+        ]
+    }
+}

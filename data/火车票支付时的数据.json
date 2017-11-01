@@ -1,0 +1,134 @@
+{
+    "selected": {
+        "train_code": "G1003",
+        "train_type": 0,
+        "start_station": "武汉",
+        "end_station": "深圳北",
+        "start_time": "",
+        "from_time": "08:21",
+        "arrive_time": "12:36",
+        "costtime": "4小时15分",
+        "from_station": "咸宁北",
+        "arrive_station": "深圳北",
+        "cost_time": "255",
+        "depTimeId": 1,
+        "seatList": [
+            {
+                "price": "503.0",
+                "count": "478",
+                "typeId": 3,
+                "typeName": "二等座",
+                "$$hashKey": "object:19688"
+            }
+        ],
+        "lowerprice": {
+            "price": "503.0",
+            "count": "478",
+            "typeId": 3,
+            "typeName": "二等座"
+        },
+        "$$hashKey": "object:19616",
+        "search": {
+            "date": "2016-12-09T00:00:00.000Z",
+            "week": "周五",
+            "only_GCD": false,
+            "current": {
+                "depStation": "咸宁北",
+                "arrStation": "深圳北",
+                "creationTime": 1480594253713
+            },
+            "arr_date": "2016-12-09T04:15:00.000Z",
+            "arr_week": "周五"
+        },
+        "source": 0,
+        "ticketInfo": {
+            "ticket_person": {
+                "adult": [
+                    {
+                        "id": "98",
+                        "yonghuid": "2",
+                        "user_name": "高晓凯",
+                        "ids_type": "二代身份证",
+                        "user_ids": "41048219900520113X",
+                        "ticket_type": "0",
+                        "Audit": "1",
+                        "chk": true,
+                        "isNew": false,
+                        "$$hashKey": "object:20214"
+                    }
+                ],
+                "child": []
+            },
+            "contacts": {
+                "id": "2",
+                "zhanghu": "13273890941",
+                "mima": "a12345678",
+                "xingming": "gao",
+                "xingbie": "男",
+                "youxiang": null,
+                "shoujihaoma": "13273890941",
+                "chushengriqi": null,
+                "zhuceriqi": "2016-11-21 19:05:10",
+                "zhifufangshi": null,
+                "beizhu": null,
+                "zhucelaiyuan": null,
+                "dengluriqi": "2016-12-01 16:06:15",
+                "OpenidQQ": null,
+                "OpenidWX": null,
+                "UnionidWX": null,
+                "OpenidXM": null,
+                "chengshiip": null
+            },
+            "mail": {
+                "isMail": false,
+                "bx_invoice_receiver": "",
+                "bx_invoice_phone": "",
+                "bx_invoice_zipcode": "",
+                "bx_invoice_address": ""
+            },
+            "insurance": {
+                "id": 0,
+                "price": 20,
+                "title": "优先出票",
+                "isMail": false
+            },
+            "cost": {
+                "adult": {
+                    "count": 1
+                },
+                "child": {
+                    "count": 0
+                },
+                "unit": {
+                    "ticketfare": "503.0",
+                    "expressfee": 0,
+                    "insurance": 20
+                },
+                "total": {
+                    "totalPrice": 523,
+                    "totalCount": 1,
+                    "ticketfare": 503,
+                    "expressfee": 0,
+                    "insurance": 20
+                },
+                "childInfo": []
+            },
+            "carry_child": {
+                "id": "98",
+                "yonghuid": "2",
+                "user_name": "高晓凯",
+                "ids_type": "二代身份证",
+                "user_ids": "41048219900520113X",
+                "ticket_type": 1,
+                "Audit": "1",
+                "chk": true,
+                "isNew": false,
+                "chkTime": 1480594351330,
+                "pid": "98",
+                "carry_childCount": 0
+            }
+        }
+    },
+    "yonghuid": "2",
+    "sf": ""
+}

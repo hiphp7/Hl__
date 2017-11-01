@@ -1,0 +1,387 @@
+/* Empty. Add your own CSS if you like */
+#img{
+    height: 60px;
+    top:-15px;
+}
+
+#top{
+    color: white;
+    background-color: #49d3dd;
+}
+#top_message{
+
+    font-size: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+#top_phone{
+	font-size: 25px;
+    margin-top: 5px;
+    position: absolute;
+    right: 8px;
+    color: white;
+}
+#slide{
+    margin-top: 43px;
+}
+#slide_box{
+    margin-top: 43px;
+}
+.slide_box_img img{
+    width: 100%;
+}
+.col-demo{
+    text-align: center;
+}
+.col-demo img{
+    width: 60%;
+}
+
+#travel{
+    width: 100%;height: 40px;
+}
+.travel{
+    width: 33%;height: 42px; float: left; margin-left: 1px; border:1px solid white;
+}
+.travel_1{
+    width: 33%;height: 42px; float: left; margin-left: 1px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    border-top: 1px solid white;
+}
+.travel_1 img{
+    width:100%;
+}
+.travel img{
+    width:100%;
+}
+
+
+.hezuohangsi_img{
+    width: 100%;
+    height: 2.5rem;
+}
+
+
+/** 旅行优势，签证...*/
+.travel_img{
+    width: 100%;
+    height: 42px;
+}
+#col_1{
+    margin: 0; padding: 0;
+    height: 42px;
+}
+#col_2{
+    margin: 0 1px 0 1px; padding: 0;  height: 42px;
+}
+#col_3{
+    margin:0; padding: 0;  height: 42px;
+}
+#col_4{
+    margin: 0; padding: 0;  height: 42px;
+}
+#col_5{
+    margin: 0 1px 0 1px; padding: 0;  height: 42px;
+}
+#col_6{
+    margin:0; padding: 0;  height: 42px;
+}
+
+
+#kong{
+    width: 100%; height: 8px; background-color: white; float: left;
+}
+.hotel_divider{
+    background-color: #ffdd57;margin:0 auto; border: 0;
+}
+#dlyl{
+    font-size: 16px;font-family:'黑体'
+}
+#more{
+    text-align: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:"黑体";
+    color: black;
+    position: absolute;
+    right: 12px;
+}
+#login_gift{
+    border: 0;
+    width: 100%;
+    height: 180px;
+    background-color: #ffe577;
+}
+#top_border{
+    z-index:4; position: absolute;height: 35px;width:50%; border-right: 1px solid #fcae49;
+    margin-top: 10px;
+}
+#bottom_border{
+    z-index:5; position: absolute;height: 35px;width:50%; border-right: 1px solid #fcae49;
+    margin-top: 140px;
+}
+#left_border{
+    z-index:5; position: absolute;width:30%; border-top: 1px solid #fcae49; left: 5%; margin-top: 90px;
+}
+#right_border{
+    z-index:5; position: absolute;width:30%; border-top: 1px solid #fcae49;
+    margin-top: 90px; right:5%;
+}
+#left{
+    width: 40%; float: left; text-align: center;
+}
+.login_img{
+    padding-top: 10px;
+    width: 50%;
+    max-height: 60px;
+    max-width: 50%;
+}
+.font{
+    font-family:"黑体";
+    font-size: 1.3rem;
+    color: #333333;
+}
+.youshi_font{
+    font-family:"黑体";
+    font-size: 1.0rem;
+    color: #666666;
+}
+#login_icon{
+    width: 20%;float: left; text-align: center;
+}
+#login_img{
+    width:100%; 
+}
+#right{
+    width: 40%; float: left; text-align: center;
+}
+
+.login_1{
+    width: 30%;float: left; text-align: center;
+}
+#tab{
+
+}
+#col_h{
+    height: 43px;
+}
+
+/*酒店搜索页 [begin]*/
+.guoneiwai button{
+    border:none;
+}
+.starBox .child{
+    padding:0;color: #8E8E8E;
+}
+.starBox .child label{
+    width:100%;text-align:center;min-height:0;min-width:0;
+    line-height:22px;font-size:13px;border: 1px solid #8E8E8E;
+    padding: 0.4rem 1.4rem;display: inline-block;margin-top: 10px;margin-bottom: 10px;
+}
+.starBox .child label.on{
+    border: 1px solid #42D6D4!important;color:#42D6D4;
+}
+.renshuSelect .weishu .item-content{
+    padding: 16px 16px 16px 40px;
+}
+.renshuSelect .weishu .ws_child{
+    margin-left: 12%;
+}
+.renshuSelect .weishu i{
+    right: 80%; color: #49d3dd;top: -11px;font-size: 32px;
+}
+.renshuSelect input:checked + .weishu .item-content {
+    background: white;  color: #49d3dd;  
+}
+/*酒店搜索页 [end]*/
+
+/*入住离店日期 [begin]*/
+.c_49D3DD{ color: #49D3DD;}
+.c_5f5f5f{color: #5f5f5f;}
+.datetable .on2, .datetable .on2 p{color:#fff; background:#49D3DD;}
+/*入住离店日期 [end]*/
+
+/*城市 [begin]*/
+.place_head .header {
+    height: 44px;
+    line-height: 44px;
+}
+
+.bar-subheader .item-input{
+    padding-left:24px;
+    padding-top:2px;
+}
+.bar-subheader .item-input i{
+    font-size:139%;
+}
+.bar-subheader .item-input input{
+    font-size:16px;
+}
+.padding {
+    padding-top: 0px;
+}
+.returnbut {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    margin-top: -1.138rem;
+    height: 2.277rem;
+    line-height: 2.277rem;
+    font-size: 1.6rem;
+}
+.alpha_list .item {
+    border-color: #ddd;
+    background-color: #fff;
+    color: #444;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: -1px;
+    padding: 16px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 16px;
+}
+.alpha_list .hotel_divider {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    min-height: 30px;
+    background-color: #f5f5f5;
+    color: #222;
+    font-weight: 500;
+}
+/*城市 [end]*/
+
+/*酒店列表 [begin]*/
+.top_select{
+    padding: 0px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    height: 31px;
+    top: 65px;
+}
+.top_select .select{
+    padding:0 5px;
+    text-align: center;
+    height: 30px;
+}
+.top_select .select button{
+    border:0;
+    font-size: 1.3rem;
+}
+.top_select .select button i{
+    padding: 6px;
+}
+.hotel_list label:first-child{
+    border-top:none;
+}
+.hotel_list label:last-child{
+    border-bottom:none;
+}
+.jiudian_list{
+    border: none;
+    padding: 0;
+}
+.jiudian_list img{
+    width:30%;height:13.5rem;float:left;
+}
+.jiudian_list .contentBox{
+    height:13.5rem;border-top:1px solid #ddd;
+}
+.jiudian_list .contentBox ul{
+    float:left;width:70%;height:100%;overflow: hidden;padding: 1rem 0.5rem 0.5rem 1rem;
+}
+.jiudian_list .contentBox ul .li3 .describe{
+    width:90%;
+    height:auto;
+    line-height: 130%;
+    white-space:normal;
+}
+.c_42d6d4{
+    color:#42D6D4!important;
+}
+
+.hotelFloat{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+}
+
+.hotelFloat .select_child{
+    padding: 1rem 1rem 1rem 5rem;
+    font-size: 1.6rem;
+}
+.hotelFloat .hotelFloatBox{
+    padding: 0;
+}
+
+.hotelFloat .hotelStarFloat .child label{
+    width:100%;text-align:center;min-height:0;min-width:0;
+    line-height:22px;font-size:13px;border: 1px solid #8E8E8E;
+    padding: 0.4rem 1.4rem;display: inline-block;margin-top: 7px;margin-bottom: 7px;
+}
+
+.starConfirm .cancel,.starConfirm .confirm{
+    text-align:center;
+}
+.starConfirm .cancel{
+    margin-right: 0.5rem;border: 1px solid #ddd;
+    border-radius:3px;
+}
+.starConfirm .confirm{
+    background-color:#FF6600;
+    border-radius:3px;
+	color: #fff;
+}
+.divider{
+    display: inline-block;height:2.5rem;border-left: 1px solid #ddd;padding: 0 1rem;
+}
+/*酒店列表 [end]*/
+
+/*酒店详情 begin*/
+.hotelDetail .tip span{
+    padding: 0.5rem 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+.hotelDetail_list{
+    border: none;
+    padding: 0;
+}
+.hotelDetail_list img{
+    width:25%;float:left;padding: 0.5rem;
+}
+.hotelDetail_list .contentBox{
+
+}
+.hotelDetail_list .contentBox ul{
+    float:left;width:75%;height:100%;overflow: hidden;padding: 1rem 0.5rem 0.5rem 0rem;
+}
+.hotelDetail_list .contentBox ul .li3 .describe{
+    width:90%;
+    height:auto;
+    line-height: 130%;
+    white-space:normal;
+}
+.c_42d6d4{
+    color:#42D6D4!important;
+}
+/*酒店详情 end*/
+
+
+
+
+
+
+
+
+
+
+
